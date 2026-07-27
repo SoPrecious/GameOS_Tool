@@ -1,0 +1,6 @@
+{
+  "version": "1.0.0",
+  "release_notes": "GameOS Tool 1.0.0 - Otomatik güncelleme altyapısı entegre edildi.",
+  "download_url": "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
+  "mandatory": false
+}
