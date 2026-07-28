@@ -29,14 +29,23 @@ reg add "HKLM\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings" /v "PauseFeatureUpda
 reg add "HKLM\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings" /v "PauseQualityUpdatesStartTime" /t REG_SZ /d "2026-07-12T00:00:00Z" /f >> C:\Windows\installation.log 2>&1
 reg add "HKLM\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings" /v "PauseQualityUpdatesExpiryTime" /t REG_SZ /d "2099-12-31T23:59:59Z" /f >> C:\Windows\installation.log 2>&1
 
+:: 7-Zip Dynamic Installation (if not installed)
+if not exist "C:\Program Files\7-Zip\7z.exe" (
+    if not exist "C:\Program Files (x86)\7-Zip\7z.exe" (
+        powershell.exe -NoProfile -ExecutionPolicy Bypass -Command "$ProgressPreference='SilentlyContinue'; try { $url='https://github.com/ip7z/7zip/releases/download/26.02/7z2602-x64.msi'; try { $json=Invoke-RestMethod 'https://api.github.com/repos/ip7z/7zip/releases/latest'; $asset=$json.assets | Where-Object { $_.name -like '*x64.msi' } | Select-Object -First 1; if ($asset) { $url=$asset.browser_download_url } } catch {}; Invoke-WebRequest -Uri $url -OutFile '$env:TEMP\7z-x64.msi'; Start-Process msiexec.exe -ArgumentList '/i', `"$env:TEMP\7z-x64.msi`", '/qn' -Wait; Remove-Item '$env:TEMP\7z-x64.msi' -ErrorAction SilentlyContinue } catch {}" >> C:\Windows\installation.log 2>&1
+    )
+)
+
 :: Keyboard Layout & Turkish Q Setup
 reg add "HKCU\Keyboard Layout\Toggle" /v "Hotkey" /t REG_SZ /d "3" /f >> C:\Windows\installation.log 2>&1
 reg add "HKCU\Keyboard Layout\Toggle" /v "Language Hotkey" /t REG_SZ /d "3" /f >> C:\Windows\installation.log 2>&1
 reg add "HKCU\Keyboard Layout\Toggle" /v "Layout Hotkey" /t REG_SZ /d "3" /f >> C:\Windows\installation.log 2>&1
 reg add "HKCU\Control Panel\International\User Profile" /v "DefaultInputMethodOverride" /t REG_SZ /d "0409:0000041f" /f >> C:\Windows\installation.log 2>&1
 reg add "HKCU\Keyboard Layout\Substitutes" /v "00000409" /t REG_SZ /d "0000041f" /f >> C:\Windows\installation.log 2>&1
-reg delete "HKCU\Keyboard Layout\Preload" /f >> C:\Windows\installation.log 2>&1
+reg delete "HKCU\Keyboard Layout\Preload" /va /f >> C:\Windows\installation.log 2>&1
 reg add "HKCU\Keyboard Layout\Preload" /v "1" /t REG_SZ /d "0000041f" /f >> C:\Windows\installation.log 2>&1
+reg delete "HKU\.DEFAULT\Keyboard Layout\Preload" /va /f >> C:\Windows\installation.log 2>&1
+reg add "HKU\.DEFAULT\Keyboard Layout\Preload" /v "1" /t REG_SZ /d "0000041f" /f >> C:\Windows\installation.log 2>&1
 
 :: PowerShell Language Setup
 powershell.exe -NoProfile -ExecutionPolicy Bypass -Command "$ProgressPreference = 'SilentlyContinue'; try { $List = New-WinUserLanguageList -Language 'en-US'; $List[0].InputMethodTips.Clear(); $List[0].InputMethodTips.Add('0409:0000041f'); Set-WinUserLanguageList -LanguageList $List -Force; Set-WinDefaultInputMethodOverride -InputTip '0409:0000041f' } catch {}" >> C:\Windows\installation.log 2>&1
