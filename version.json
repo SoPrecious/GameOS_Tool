@@ -1,7 +1,7 @@
 {
-    "version":  "1.0.0",
-    "release_notes":  "Initial Release 1.0.0",
+    "version":  "1.0.1",
+    "release_notes":  "Integrated Post Logon to GameOS_Tool.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "95ae6c3ebea5ab09a20a9bc9a84b75a4ece1972c657326d62f2276171393a725",
+    "sha256":  "3cb278a8e1e99ffeb59bb4246e8e64e91cc0e9f75f54348ab3518b80f147fac5",
     "mandatory":  false
 }
