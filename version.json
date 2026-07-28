@@ -1,6 +1,7 @@
 {
-    "version": "1.0.0",
-    "release_notes": "First Release",
-    "download_url": "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "mandatory": false
+    "version":  "1.0.0",
+    "release_notes":  "Initial Release 1.0.0",
+    "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
+    "sha256":  "95ae6c3ebea5ab09a20a9bc9a84b75a4ece1972c657326d62f2276171393a725",
+    "mandatory":  false
 }
