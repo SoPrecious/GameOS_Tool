@@ -1,5 +1,5 @@
 {
-    "version":  "1.1.9",
+    "version":  "1.2.0",
     "release_notes":  "Fixed Registry TakeOwnership to use SetNamedSecurityInfo and updated UsbOptimizations log path",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
     "mandatory":  false
