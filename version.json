@@ -1,6 +1,6 @@
 {
-    "version":  "1.0.5",
-    "release_notes":  "Enforce Native UAC Admin with app.manifest",
+    "version":  "1.0.7",
+    "release_notes":  "Fix SetRegValue UnauthorizedAccessException",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
     "mandatory":  false
 }
