@@ -1,6 +1,6 @@
 {
-    "version":  "1.0.2",
-    "release_notes":  "PostLogon fix",
+    "version":  "1.0.4",
+    "release_notes":  "Fix Post Logon UI Tracking",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
     "mandatory":  false
 }
