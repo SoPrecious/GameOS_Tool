@@ -1,7 +1,7 @@
 {
-    "version":  "1.0.2",
-    "release_notes":  "7-Zip Fix ++++",
+    "version":  "1.0.3",
+    "release_notes":  "Fixes for Optimization Tweaks.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "8f66875afe7c8a6e2474ab73e8803d0cad67fd4d31daf43276dcb0255e78ac55",
+    "sha256":  "de3628e1bf6111cdd4ea8597a7ca024510f555e87727684b88450003de6f990b",
     "mandatory":  false
 }
