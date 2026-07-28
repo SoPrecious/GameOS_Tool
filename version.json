@@ -1,7 +1,7 @@
 {
-    "version":  "1.0.3",
-    "release_notes":  "Fixes for Optimization Tweaks.",
+    "version":  "1.0.4",
+    "release_notes":  "Fixes for Tweak Applying Problems.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "de3628e1bf6111cdd4ea8597a7ca024510f555e87727684b88450003de6f990b",
+    "sha256":  "cf92beb4d462e9bfc0f68b367184bfab651bace8e6418189cb779bf12b2ddcec",
     "mandatory":  false
 }
