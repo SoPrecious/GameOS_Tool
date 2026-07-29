@@ -1,7 +1,7 @@
 {
-    "version":  "1.0.3",
+    "version":  "1.0.4",
     "release_notes":  "Bug fixes",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "b53a2722f16c8315c1b4c4221ee9885cc57d1952445bdccb2552037c9b61a976",
+    "sha256":  "ae5e5f5fcb6c4067f12b1f4bdc6b05139ff582e9d65b19aed68ee7886ad0152b",
     "mandatory":  false
 }
