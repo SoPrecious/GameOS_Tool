@@ -1,7 +1,7 @@
 {
-    "version":  "1.0.1",
-    "release_notes":  "Turkish Language Support",
+    "version":  "1.0.2",
+    "release_notes":  "Fixed Language Change Getting Stuck",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "50c6b3750db3842c68f3b434c23376cbbb9641fa5e5232e3caea3dcb5515bceb",
+    "sha256":  "fdee3a41a797dc62b0fb4acf9ab37fdb5c7f67fd74d4d170f944623469a14fde",
     "mandatory":  false
 }
