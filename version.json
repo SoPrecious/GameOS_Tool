@@ -1,7 +1,7 @@
 {
-    "version":  "1.0.2",
-    "release_notes":  "Enforce single Turkish Q keyboard layout without multi-keyboard selection switcher",
+    "version":  "1.0.0",
+    "release_notes":  "First Release",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "c56194e2b4d8d1f21ce1d9e95780aba8db91406eec5e59ac2be02e91ea1a99cb",
+    "sha256":  "4346b43912ff6ae901a9107054179dbbce826a8b651bf07c13c0b1bdab6ec0fe",
     "mandatory":  false
 }
