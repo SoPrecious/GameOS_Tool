@@ -1,7 +1,7 @@
 {
-    "version":  "1.0.0",
-    "release_notes":  "First Release",
+    "version":  "1.0.1",
+    "release_notes":  "NTLite pre-installed language pack instant switching support",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "511b943c5e3b0320a0800d4cc90b4ab04d76d91278ca5d382727774388dc6e8b",
+    "sha256":  "0b4f6f3e5e2c2cba15f8b02dca3fa353a6e83289d72437bbd83afeb5af687b87",
     "mandatory":  false
 }
