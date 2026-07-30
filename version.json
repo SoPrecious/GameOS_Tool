@@ -1,7 +1,7 @@
 {
-    "version":  "1.0.1",
-    "release_notes":  "NTLite pre-installed language pack instant switching support",
+    "version":  "1.0.2",
+    "release_notes":  "Enforce single Turkish Q keyboard layout without multi-keyboard selection switcher",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "0b4f6f3e5e2c2cba15f8b02dca3fa353a6e83289d72437bbd83afeb5af687b87",
+    "sha256":  "c56194e2b4d8d1f21ce1d9e95780aba8db91406eec5e59ac2be02e91ea1a99cb",
     "mandatory":  false
 }
