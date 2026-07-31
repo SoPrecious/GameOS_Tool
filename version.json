@@ -1,7 +1,7 @@
 {
     "version":  "1.0.1",
-    "release_notes":  "Complete UI language translation \u0026 GeoID fix",
+    "release_notes":  "Add WinRT PrimaryLanguageOverride for Modern/Settings App Turkish translation",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "6e591f71c0087f144981dc3e7415058a611b671ac9addbc12883e3c278cce81b",
+    "sha256":  "f76ed5d6598d59ff408108255f8b752d414b74c4fe5e363fbf2c955f05e85b51",
     "mandatory":  false
 }
