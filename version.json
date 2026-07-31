@@ -1,7 +1,7 @@
 {
     "version":  "1.0.1",
-    "release_notes":  "Remove manual extra buttons for 100% full background automation on language apply",
+    "release_notes":  "Add try-catch safety block to ShowLanguageSettingsDialog to prevent app closure on Language button click",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "8e516cf2debbb160f9bec5b58a2a63232c63f0869e4f5b39f6be8bb3fa0a69db",
+    "sha256":  "7cd4b0fd9d3999227120f56276287e8d465d22334d257f230c4ae25f5854ca95",
     "mandatory":  false
 }
