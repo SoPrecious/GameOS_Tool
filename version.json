@@ -1,7 +1,7 @@
 {
-    "version":  "1.0.1",
-    "release_notes":  "Streamline language switching code \u0026 remove unnecessary online download fallbacks",
+    "version":  "1.0.0",
+    "release_notes":  "Set release version to 1.0.0 with streamlined offline W10MUI language integration",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "bcdb1de67360afd1e048cf5e2c41e812b071a557daeffb51cb98d7790f1462bf",
+    "sha256":  "4c9adccf1dcd84cec542fe84377f4dc417ada73d4d0cb4dcdccfe096eb33b5a5",
     "mandatory":  false
 }
