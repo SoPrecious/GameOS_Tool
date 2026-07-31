@@ -1,7 +1,7 @@
 {
     "version":  "1.0.1",
-    "release_notes":  "Add direct Microsoft Store button for Turkish Local Experience Pack (LXP)",
+    "release_notes":  "Remove manual extra buttons for 100% full background automation on language apply",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "5d8d89e90a4ea3216e4fe299bf36285fb2bed356ad5f186036af08e1deeb71ae",
+    "sha256":  "8e516cf2debbb160f9bec5b58a2a63232c63f0869e4f5b39f6be8bb3fa0a69db",
     "mandatory":  false
 }
