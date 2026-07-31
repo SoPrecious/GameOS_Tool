@@ -1,7 +1,7 @@
 {
-    "version":  "1.0.2",
-    "release_notes":  "Performance improvements and bug fixes.",
+    "version":  "1.0.0",
+    "release_notes":  "Integrate perfected InstallAndApplyWindowsLanguage with WinRT PrimaryLanguageOverride assembly loading \u0026 full AppX cache purge",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "a6535625bdb770e01ba14a8668679b3be6a2f064d97a3d772ab88fc72dd855dd",
+    "sha256":  "1e470d95b0b8c313269575eb3338395615e53f9384d3e7bae29b501eba8a514b",
     "mandatory":  false
 }
