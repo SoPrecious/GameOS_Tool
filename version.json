@@ -1,7 +1,7 @@
 {
     "version":  "1.0.1",
-    "release_notes":  "Add WinRT PrimaryLanguageOverride for Modern/Settings App Turkish translation",
+    "release_notes":  "Add ImmersiveControlPanel AppX reset \u0026 taskkill for complete Settings app Turkish translation",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "f76ed5d6598d59ff408108255f8b752d414b74c4fe5e363fbf2c955f05e85b51",
+    "sha256":  "3a81d271be37f2101a3bba04dc528efe00cfad5730a210be331f682b964c9068",
     "mandatory":  false
 }
