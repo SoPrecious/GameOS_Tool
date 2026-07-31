@@ -1,7 +1,7 @@
 {
     "version":  "1.0.0",
-    "release_notes":  "Set release version to 1.0.0 with streamlined offline W10MUI language integration",
+    "release_notes":  "Add ImmersiveControlPanel AppX cache invalidation \u0026 manifest re-registration for Settings App localization",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "4c9adccf1dcd84cec542fe84377f4dc417ada73d4d0cb4dcdccfe096eb33b5a5",
+    "sha256":  "a409018d663cd1a5102c9a6f1dc9318354d3dd3fd938da2f699c04ed02efd117",
     "mandatory":  false
 }
