@@ -1,7 +1,7 @@
 {
     "version":  "1.0.1",
-    "release_notes":  "Add service re-optimization \u0026 post-reboot automatic gaming tweak restoration",
+    "release_notes":  "Defer immediate service closures when language is pending restart \u0026 auto-lock services post-boot",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "da1953ee9c078f4cfc8a8564d8c75d53f412dee417f9fd1afae0eac78a49d1bf",
+    "sha256":  "7bcdfb53c603858ab8df6a56438ea424922675b50876f58a36fbeb10a0d01821",
     "mandatory":  false
 }
