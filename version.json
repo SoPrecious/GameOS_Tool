@@ -1,7 +1,7 @@
 {
     "version":  "1.0.1",
-    "release_notes":  "Add ImmersiveControlPanel AppX reset \u0026 taskkill for complete Settings app Turkish translation",
+    "release_notes":  "Add intl.cpl XML engine execution for complete Settings app system-wide Turkish translation",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "3a81d271be37f2101a3bba04dc528efe00cfad5730a210be331f682b964c9068",
+    "sha256":  "02edf857629c8a6fc5f5df99fb392e06b633980d4ab51e10ee28d949a24cc857",
     "mandatory":  false
 }
