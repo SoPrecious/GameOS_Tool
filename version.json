@@ -1,7 +1,7 @@
 {
     "version":  "1.0.1",
-    "release_notes":  "Add Windows capability auto-registration, diagnostic error logging \u0026 Repair Language button",
+    "release_notes":  "Add service re-optimization \u0026 post-reboot automatic gaming tweak restoration",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "406f19112574876b322e1d7c16ae7a0d43269deb172346408c1c6ae2f04f3037",
+    "sha256":  "da1953ee9c078f4cfc8a8564d8c75d53f412dee417f9fd1afae0eac78a49d1bf",
     "mandatory":  false
 }
