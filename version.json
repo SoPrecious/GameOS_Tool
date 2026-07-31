@@ -1,7 +1,7 @@
 {
-    "version":  "1.0.0",
-    "release_notes":  "Add ImmersiveControlPanel AppX cache invalidation \u0026 manifest re-registration for Settings App localization",
+    "version":  "1.0.1",
+    "release_notes":  "Performance improvements and bug fixes.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "a409018d663cd1a5102c9a6f1dc9318354d3dd3fd938da2f699c04ed02efd117",
+    "sha256":  "5500cdddedd367033671c71ac92c79e2b01ef631f0e25b744187be243fcbf233",
     "mandatory":  false
 }
