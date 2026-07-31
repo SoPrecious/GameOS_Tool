@@ -1,7 +1,7 @@
 {
     "version":  "1.0.1",
-    "release_notes":  "Add intl.cpl XML engine execution for complete Settings app system-wide Turkish translation",
+    "release_notes":  "Add Windows capability auto-registration, diagnostic error logging \u0026 Repair Language button",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "02edf857629c8a6fc5f5df99fb392e06b633980d4ab51e10ee28d949a24cc857",
+    "sha256":  "406f19112574876b322e1d7c16ae7a0d43269deb172346408c1c6ae2f04f3037",
     "mandatory":  false
 }
