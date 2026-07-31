@@ -1,7 +1,7 @@
 {
     "version":  "1.0.0",
-    "release_notes":  "First Release",
+    "release_notes":  "Fix language list PowerShell syntax for complete UI translation \u0026 remove GeoID Taiwan override",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "4346b43912ff6ae901a9107054179dbbce826a8b651bf07c13c0b1bdab6ec0fe",
+    "sha256":  "d9da629579a99a09f03bca449bb678a5b2d1fa2d9c9f7d073297462960b0ca61",
     "mandatory":  false
 }
