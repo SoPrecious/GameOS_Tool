@@ -1,7 +1,7 @@
 {
     "version":  "1.0.1",
-    "release_notes":  "Defer immediate service closures when language is pending restart \u0026 auto-lock services post-boot",
+    "release_notes":  "Add direct Microsoft Store button for Turkish Local Experience Pack (LXP)",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "7bcdfb53c603858ab8df6a56438ea424922675b50876f58a36fbeb10a0d01821",
+    "sha256":  "5d8d89e90a4ea3216e4fe299bf36285fb2bed356ad5f186036af08e1deeb71ae",
     "mandatory":  false
 }
