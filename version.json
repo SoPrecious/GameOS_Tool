@@ -1,7 +1,7 @@
 {
-    "version":  "1.0.0",
-    "release_notes":  "Fix ShowLanguageSettingsDialog by removing duplicate control additions and unblocking Language button click",
+    "version":  "1.0.1",
+    "release_notes":  "ye",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "f6f2c5cd33eb5ef29133a6fcfbfa102055d7c6533b088f58d9f86802cde53b39",
+    "sha256":  "fdd542a67e745ede798d1c26060a5d9b028d77e7122a125f930ecd4634c11ed5",
     "mandatory":  false
 }
