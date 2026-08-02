@@ -1,7 +1,7 @@
 {
     "version":  "1.0.0",
-    "release_notes":  "Language options updated",
+    "release_notes":  "v1.0.0 - OOBE FirstRun dil secimi ve arayuz guncellemeleri",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "910ec4862e117196a1c312438c60006bd6321d76602e3bbfd59b7d902c13b4aa",
+    "sha256":  "10b6b377cbe1a8a678050bfa7c0f6b373e68ed6874680b9d6e14293351bb7a03",
     "mandatory":  false
 }
