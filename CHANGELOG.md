@@ -4,6 +4,12 @@ All notable changes to GameOS Tool are documented in this file.
 
 ---
 
+## [1.0.5] - 2026-08-06
+
+### ðŸš€ Release Notes
+- **EN**: Ram cleaner stutter fix.
+- **TR**: Ram Temizleyici stuttera sebep oluyordu, düzeltildi.
+
 ## [1.0.4] - 2026-08-06
 - **EN**: Fixed issue where changing language was detected as an update and reapplied settings.
 - **TR**: Dil değiştirildiğinde güncelleme olarak algılanıp ayarların tekrar uygulanması sorunu düzeltildi.

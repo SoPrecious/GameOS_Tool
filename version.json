@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.4",
-    "release_notes_en":  "Fixed issue where changing language was detected as an update and reapplied settings.",
-    "release_notes_tr":  "Dil degistirildiginde guncelleme olarak algilanip ayarlarin tekrar uygulanmasi sorunu düzeltildi.",
-    "release_notes":  "Fixed issue where changing language was detected as an update and reapplied settings. | Dil degistirildiginde guncelleme olarak algilanip ayarlarin tekrar uygulanmasi sorunu düzeltildi.",
+    "version":  "1.0.5",
+    "release_notes_en":  "Ram cleaner stutter fix.",
+    "release_notes_tr":  "Ram Temizleyici stuttera sebep oluyordu, düzeltildi.",
+    "release_notes":  "Ram cleaner stutter fix. | Ram Temizleyici stuttera sebep oluyordu, düzeltildi.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "d74b164e9c837a2470fe31e38d2635c7b66269f0eb65a2b0f7354a53bf515f38"
+    "sha256":  "42e1d0854804b6512d0ed432257682f5f6807bfa045190b906feec5a9e01b3c6"
 }
