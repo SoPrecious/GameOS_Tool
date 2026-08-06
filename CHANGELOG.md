@@ -23,8 +23,8 @@ All notable changes to GameOS Tool are documented in this file.
 ---
 
 ## [1.0.1] - 2026-08-05
-- **EN**: Performance improvements and bug fixes.
-- **TR**: Performans iyileştirmeleri ve hata düzeltmeleri.
+- **EN**: Added automatic update checking engine with SHA256 verification. Excluded game launcher clients from triggering RAM cleaner.
+- **TR**: Otomatik güncelleme denetleme sistemi ve SHA256 doğrulama desteği eklendi. Oyun istemcilerinin RAM temizliği tetiklemesi engellendi.
 
 ---
 
