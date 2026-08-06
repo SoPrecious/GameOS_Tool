@@ -3,5 +3,6 @@
     "release_notes_en":  "\"Ram Cleaner\" has been improved to provide better experience while gaming.",
     "release_notes_tr":  "\"RAM Temizleyici\" oyunlarda daha iyi performans alınabilmesi için geliştirildi.",
     "release_notes":  "\"Ram Cleaner\" has been improved to provide better experience while gaming. | \"RAM Temizleyici\" oyunlarda daha iyi performans alınabilmesi için geliştirildi.",
-    "sha256":  "d342e927051e14b57531f7ac581d166a8631e6853f1a900fe0f22da2a14a6380"
+    "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
+    "sha256":  "ac5caedd56e325ff31a472c381ec8172ed8120d75380e520a20de80d1616c463"
 }
