@@ -1,7 +1,7 @@
 {
     "version":  "1.0.2",
-    "release_notes_en":  "Ram Cleaner has been improved to provide better experience while gaming.",
-    "release_notes_tr":  "RAM Temizleyici oyunlarda daha iyi performans alinabilmesi icin gelistirildi.",
-    "release_notes":  "Ram Cleaner has been improved to provide better experience while gaming. | RAM Temizleyici oyunlarda daha iyi performans alinabilmesi icin gelistirildi.",
-    "sha256":  "b2069eb448930987a90ce54006087942c2e7995738e262510a0bd0d91d6eab91"
+    "release_notes_en":  "\"Ram Cleaner\" has been improved to provide better experience while gaming.",
+    "release_notes_tr":  "\"RAM Temizleyici\" oyunlarda daha iyi performans alınabilmesi için geliştirildi.",
+    "release_notes":  "\"Ram Cleaner\" has been improved to provide better experience while gaming. | \"RAM Temizleyici\" oyunlarda daha iyi performans alınabilmesi için geliştirildi.",
+    "sha256":  "d342e927051e14b57531f7ac581d166a8631e6853f1a900fe0f22da2a14a6380"
 }
