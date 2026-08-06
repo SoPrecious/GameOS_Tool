@@ -1,8 +1,8 @@
 {
     "version":  "1.0.5",
-    "release_notes_en":  "Ram cleaner stutter fix.",
-    "release_notes_tr":  "Ram Temizleyici stuttera sebep oluyordu, düzeltildi.",
-    "release_notes":  "Ram cleaner stutter fix. | Ram Temizleyici stuttera sebep oluyordu, düzeltildi.",
+    "release_notes_en":  "Stutter fix for Ram Cleaner.",
+    "release_notes_tr":  "Ram Temizleyici stutter problemi düzeltildi.",
+    "release_notes":  "Stutter fix for Ram Cleaner. | Ram Temizleyici stutter problemi düzeltildi.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "42e1d0854804b6512d0ed432257682f5f6807bfa045190b906feec5a9e01b3c6"
+    "sha256":  "2b957df455ffec7458d50c5889f8eddfa82d2be2bd1c2c4ee433fb23df602cb0"
 }
