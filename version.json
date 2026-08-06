@@ -1,7 +1,7 @@
 {
-    "version":  "1.0.2",
+    "version":  "1.0.1",
     "release_notes_en":  "You can now adjust services however you like by pressing \"Adjust\" button.",
-    "release_notes_tr":  "Artık servisleri \"Ayarla\" tuşuna basarak istediğiniz şekilde değiştirebilirsiniz.",
-    "release_notes":  "You can now adjust services however you like by pressing \"Adjust\" button. | Artık servisleri \"Ayarla\" tuşuna basarak istediğiniz şekilde değiştirebilirsiniz.",
-    "sha256":  "546c5ee4c31db91192292e5767b7878d49147a1e49018677a333ed28cb6e018b"
+    "release_notes_tr":  "ArtÄ±k servisleri \"Ayarla\" tuÅŸuna basarak istediÄŸiniz ÅŸekilde deÄŸiÅŸtirebilirsiniz.",
+    "release_notes":  "You can now adjust services however you like by pressing \"Adjust\" button. | ArtÄ±k servisleri \"Ayarla\" tuÅŸuna basarak istediÄŸiniz ÅŸekilde deÄŸiÅŸtirebilirsiniz.",
+    "sha256":  "a2b50d5625b443ff74ebe560e8790628a59c7842c0d495ad877396b4704bc70a"
 }
