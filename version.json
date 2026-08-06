@@ -1,7 +1,7 @@
 {
-    "version":  "1.0.1",
-    "release_notes_en":  "You can now adjust services however you like by pressing \"Adjust\" button.",
-    "release_notes_tr":  "ArtÄ±k servisleri \"Ayarla\" tuÅŸuna basarak istediÄŸiniz ÅŸekilde deÄŸiÅŸtirebilirsiniz.",
-    "release_notes":  "You can now adjust services however you like by pressing \"Adjust\" button. | ArtÄ±k servisleri \"Ayarla\" tuÅŸuna basarak istediÄŸiniz ÅŸekilde deÄŸiÅŸtirebilirsiniz.",
-    "sha256":  "a2b50d5625b443ff74ebe560e8790628a59c7842c0d495ad877396b4704bc70a"
+    "version":  "1.0.2",
+    "release_notes_en":  "\"Ram Cleaner\" has been improved to provide better experience while gaming.",
+    "release_notes_tr":  "\"RAM Temizleyici\" oyunlarda daha iyi performans alınabilmesi için daha iyi hale getirildi.\"",
+    "release_notes":  "\"Ram Cleaner\" has been improved to provide better experience while gaming. | \"RAM Temizleyici\" oyunlarda daha iyi performans alınabilmesi için daha iyi hale getirildi.\"",
+    "sha256":  "0a8b08aa975e6a50fc783c869968a5469606f65b07509d34922fd35aa9efe5f1"
 }
