@@ -1,8 +1,8 @@
 {
     "version":  "1.0.3",
-    "release_notes_en":  "Ram Cleaner improved to eliminate in-game micro-stutters. Task Scheduler tasks now automatically delete and re-create upon update.",
-    "release_notes_tr":  "RAM Temizleyici oyun ici takilmalari önleyecek sekilde gelistirildi. Guncelleme sonrasi Gorev Zamanlayici gorevlerinin otomatik silinip yenilenmesi saglandi.",
-    "release_notes":  "Ram Cleaner improved to eliminate in-game micro-stutters. Task Scheduler tasks now automatically delete and re-create upon update. | RAM Temizleyici oyun ici takilmalari önleyecek sekilde gelistirildi. Guncelleme sonrasi Gorev Zamanlayici gorevlerinin otomatik silinip yenilenmesi saglandi.",
+    "release_notes_en":  "Ram Cleaner has been improved to provide better experience while gaming.",
+    "release_notes_tr":  "RAM Temizleyici oyunlarda daha iyi performans alinabilmesi icin gelistirildi.",
+    "release_notes":  "Ram Cleaner has been improved to provide better experience while gaming. | RAM Temizleyici oyunlarda daha iyi performans alinabilmesi icin gelistirildi.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
     "sha256":  "ef60f394fa8bae127e56d330b8747140cdba62c2c33e061506da5457cf46b120"
 }
