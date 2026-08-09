@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.5",
-    "release_notes_en":  "Stutter fix for Ram Cleaner.",
-    "release_notes_tr":  "Ram Temizleyici stutter problemi düzeltildi.",
-    "release_notes":  "Stutter fix for Ram Cleaner. | Ram Temizleyici stutter problemi düzeltildi.",
+    "version":  "1.0.6",
+    "release_notes_en":  "Gaming Process Scheduling logic changed, now you can enter your own numbers and there are now recommended ones.",
+    "release_notes_tr":  "Oyun İşlem Zamanlaması artık elle sayı girilebilir duruma getirildi, önerilen sayılar eklendi. Varsayılan 36 olarak seçildi.",
+    "release_notes":  "Gaming Process Scheduling logic changed, now you can enter your own numbers and there are now recommended ones. | Oyun İşlem Zamanlaması artık elle sayı girilebilir duruma getirildi, önerilen sayılar eklendi. Varsayılan 36 olarak seçildi.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "2b957df455ffec7458d50c5889f8eddfa82d2be2bd1c2c4ee433fb23df602cb0"
+    "sha256":  "3141a274fc2e0a4abf877ee13b277aa926f5aff677971e0bbd9a71b322ed6ad1"
 }
