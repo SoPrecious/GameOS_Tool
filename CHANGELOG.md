@@ -9,8 +9,8 @@ All notable changes to GameOS Tool are documented in this file.
 - **TR**: Duvar kağıdı doğrudan ikili dosyaya (.exe) gömüldü ve otomatik temizleme eklendi.
 
 ## [1.0.8] - 2026-08-13
-- **EN**: FirstRun wallpaper support added.
-- **TR**: FirstRun duvar kağıdı desteği eklendi.
+- **EN**: Fixed issue where left-clicking the taskbar clock did not open the clock popup/calendar.
+- **TR**: Görev çubuğundaki saate sol tıklandığında herhangi bir popup çıkmama sorunu düzeltildi.
 
 ## [1.0.7] - 2026-08-13
 - **EN**: Always administrator mode activated. (EnableLUA=0)
