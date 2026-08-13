@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.7",
-    "release_notes_en":  "Always administrator mode activated (EnableLUA=0) \u0026 FirstRun wallpaper added.",
-    "release_notes_tr":  "Always administrator mode activated (EnableLUA=0) \u0026 FirstRun wallpaper added.",
-    "release_notes":  "Always administrator mode activated (EnableLUA=0) \u0026 FirstRun wallpaper added. | Always administrator mode activated (EnableLUA=0) \u0026 FirstRun wallpaper added.",
+    "version":  "1.0.8",
+    "release_notes_en":  "Taskbar clock left click no popup problem fixed.",
+    "release_notes_tr":  "Görev çubuğunda saate sol tıklandığında menü açılmama problemi düzeltildi.",
+    "release_notes":  "Taskbar clock left click no popup problem fixed. | Görev çubuğunda saate sol tıklandığında menü açılmama problemi düzeltildi.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "e6186ad36a8d2bbbe2d3de20f8d3c4b058c6f06f9afa32fe9096e1bf02568695"
+    "sha256":  "925d6e9ac9035e06746f72413d4e06bcc34cf5dcb928a023ccd5430ee9160fe0"
 }
