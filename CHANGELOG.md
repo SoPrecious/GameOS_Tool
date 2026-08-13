@@ -5,8 +5,16 @@ All notable changes to GameOS Tool are documented in this file.
 ---
 
 ## [1.0.9] - 2026-08-13
-- **EN**: Always administrator mode activated (EnableLUA=0) & FirstRun wallpaper integration with auto-cleanup.
-- **TR**: Artık her şey yönetici yetkisiyle çalışacak şekilde ayarlandı (EnableLUA=0) ve otomatik temizlemeli FirstRun duvar kağıdı entegrasyonu.
+- **EN**: Embedded wallpaper directly into binary with automatic cleanup.
+- **TR**: Duvar kağıdı doğrudan ikili dosyaya (.exe) gömüldü ve otomatik temizleme eklendi.
+
+## [1.0.8] - 2026-08-13
+- **EN**: FirstRun wallpaper support added.
+- **TR**: FirstRun duvar kağıdı desteği eklendi.
+
+## [1.0.7] - 2026-08-13
+- **EN**: Always administrator mode activated. (EnableLUA=0)
+- **TR**: Artık her şey yönetici yetkisiyle çalışacak şekilde ayarlandı. (EnableLUA=0)
 
 ## [1.0.6] - 2026-08-09
 - **EN**: Gaming Process Scheduling logic changed, now you can enter your own numbers and there are now recommended ones.
