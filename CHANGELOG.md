@@ -4,13 +4,9 @@ All notable changes to GameOS Tool are documented in this file.
 
 ---
 
-## [1.0.8] - 2026-08-13
-- **EN**: Taskbar clock left click no popup problem fixed.
-- **TR**: Görev çubuğunda saate sol tıklandığında menü açılmama problemi düzeltildi.
-
-## [1.0.7] - 2026-08-13
-- **EN**: Always administrator mode activated (EnableLUA=0) & FirstRun wallpaper added.
-- **TR**: Artık her şey yönetici yetkisiyle çalışacak şekilde ayarlandı (EnableLUA=0) ve FirstRun duvar kağıdı eklendi.
+## [1.0.9] - 2026-08-13
+- **EN**: Always administrator mode activated (EnableLUA=0) & FirstRun wallpaper integration with auto-cleanup.
+- **TR**: Artık her şey yönetici yetkisiyle çalışacak şekilde ayarlandı (EnableLUA=0) ve otomatik temizlemeli FirstRun duvar kağıdı entegrasyonu.
 
 ## [1.0.6] - 2026-08-09
 - **EN**: Gaming Process Scheduling logic changed, now you can enter your own numbers and there are now recommended ones.

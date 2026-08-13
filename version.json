@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.7",
-    "release_notes_en":  "Always administrator mode activated (EnableLUA=0) \u0026 FirstRun wallpaper auto-cleanup added.",
-    "release_notes_tr":  "Always administrator mode activated (EnableLUA=0) \u0026 FirstRun wallpaper auto-cleanup added.",
-    "release_notes":  "Always administrator mode activated (EnableLUA=0) \u0026 FirstRun wallpaper auto-cleanup added. | Always administrator mode activated (EnableLUA=0) \u0026 FirstRun wallpaper auto-cleanup added.",
+    "version":  "1.0.9",
+    "release_notes_en":  "Always administrator mode activated (EnableLUA=0) \u0026 FirstRun wallpaper integration with auto-cleanup.",
+    "release_notes_tr":  "Always administrator mode activated (EnableLUA=0) \u0026 FirstRun wallpaper integration with auto-cleanup.",
+    "release_notes":  "Always administrator mode activated (EnableLUA=0) \u0026 FirstRun wallpaper integration with auto-cleanup. | Always administrator mode activated (EnableLUA=0) \u0026 FirstRun wallpaper integration with auto-cleanup.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "8fee6ee3fab40d463e7a324a023c33b3cb3e67b95af5bc59ea2f75c9b08f4217"
+    "sha256":  "5a1bafe9561b388f9f12000ebf9bebff7ddee07201616dda0792de5d5fa1eec4"
 }
