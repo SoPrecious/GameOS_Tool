@@ -4,6 +4,12 @@ All notable changes to GameOS Tool are documented in this file.
 
 ---
 
+## [1.0.7] - 2026-08-13
+
+### ðŸš€ Release Notes
+- **EN**: Always administrator mode activated. (EnableLUA=0)
+- **TR**: Artık her şey yönetici yetkisiyle çalışacak şekilde ayarlandı. (EnableLUA=0)
+
 ## [1.0.6] - 2026-08-09
 
 ### 🚀 Release Notes
@@ -12,6 +18,7 @@ All notable changes to GameOS Tool are documented in this file.
 
 ## [1.0.5] - 2026-08-06
 
+### ðŸš€ Release Notes
 - **EN**: Ram cleaner stutter fix.
 - **TR**: Ram Temizleyici stuttera sebep oluyordu, düzeltildi.
 

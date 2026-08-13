@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.6",
-    "release_notes_en":  "Gaming Process Scheduling logic changed, now you can enter your own numbers and there are now recommended ones.",
-    "release_notes_tr":  "Oyun İşlem Zamanlaması artık elle sayı girilebilir duruma getirildi, önerilen sayılar eklendi. Varsayılan 36 olarak seçildi.",
-    "release_notes":  "Gaming Process Scheduling logic changed, now you can enter your own numbers and there are now recommended ones. | Oyun İşlem Zamanlaması artık elle sayı girilebilir duruma getirildi, önerilen sayılar eklendi. Varsayılan 36 olarak seçildi.",
+    "version":  "1.0.7",
+    "release_notes_en":  "Always administrator mode activated. (EnableLUA=0)",
+    "release_notes_tr":  "Artık her şey yönetici yetkisiyle çalışacak şekilde ayarlandı. (EnableLUA=0)",
+    "release_notes":  "Always administrator mode activated. (EnableLUA=0) | Artık her şey yönetici yetkisiyle çalışacak şekilde ayarlandı. (EnableLUA=0)",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "3141a274fc2e0a4abf877ee13b277aa926f5aff677971e0bbd9a71b322ed6ad1"
+    "sha256":  "aabf64d721e030e8b10dd5331cfa1627a3500e1e3c23fa42c005a1e7856db467"
 }
