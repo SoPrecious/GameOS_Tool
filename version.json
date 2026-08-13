@@ -1,8 +1,8 @@
 {
     "version":  "1.0.7",
-    "release_notes_en":  "Always administrator mode activated. (EnableLUA=0)",
-    "release_notes_tr":  "Artık her şey yönetici yetkisiyle çalışacak şekilde ayarlandı. (EnableLUA=0)",
-    "release_notes":  "Always administrator mode activated. (EnableLUA=0) | Artık her şey yönetici yetkisiyle çalışacak şekilde ayarlandı. (EnableLUA=0)",
+    "release_notes_en":  "Always administrator mode activated (EnableLUA=0) \u0026 FirstRun wallpaper added.",
+    "release_notes_tr":  "Always administrator mode activated (EnableLUA=0) \u0026 FirstRun wallpaper added.",
+    "release_notes":  "Always administrator mode activated (EnableLUA=0) \u0026 FirstRun wallpaper added. | Always administrator mode activated (EnableLUA=0) \u0026 FirstRun wallpaper added.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "aabf64d721e030e8b10dd5331cfa1627a3500e1e3c23fa42c005a1e7856db467"
+    "sha256":  "e6186ad36a8d2bbbe2d3de20f8d3c4b058c6f06f9afa32fe9096e1bf02568695"
 }
