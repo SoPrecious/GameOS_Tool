@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.9",
-    "release_notes_en":  "Always administrator mode activated (EnableLUA=0) \u0026 FirstRun wallpaper integration with auto-cleanup.",
-    "release_notes_tr":  "Always administrator mode activated (EnableLUA=0) \u0026 FirstRun wallpaper integration with auto-cleanup.",
-    "release_notes":  "Always administrator mode activated (EnableLUA=0) \u0026 FirstRun wallpaper integration with auto-cleanup. | Always administrator mode activated (EnableLUA=0) \u0026 FirstRun wallpaper integration with auto-cleanup.",
+    "version":  "1.0.10",
+    "release_notes_en":  "The MTU value was set incorrectly in some cases; this has been corrected.",
+    "release_notes_tr":  "MTU değeri bazı durumlarda yanlış ayarlanıyordu, düzeltildi.",
+    "release_notes":  "The MTU value was set incorrectly in some cases; this has been corrected. | MTU değeri bazı durumlarda yanlış ayarlanıyordu, düzeltildi.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "5a1bafe9561b388f9f12000ebf9bebff7ddee07201616dda0792de5d5fa1eec4"
+    "sha256":  "cd2433bfbe118fc355e676eedcfef6ce07b74f6f5e86bda9301f4634e3c55698"
 }

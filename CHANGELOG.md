@@ -4,6 +4,10 @@ All notable changes to GameOS Tool are documented in this file.
 
 ---
 
+## [1.0.10] - 2026-08-15
+- **EN**: The MTU value was set incorrectly in some cases; this has been corrected.
+- **TR**: MTU değeri bazı durumlarda yanlış ayarlanıyordu, düzeltildi.
+
 ## [1.0.9] - 2026-08-13
 - **EN**: Embedded wallpaper directly into binary with automatic cleanup.
 - **TR**: Duvar kağıdı doğrudan ikili dosyaya (.exe) gömüldü ve otomatik temizleme eklendi.
