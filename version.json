@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.10",
-    "release_notes_en":  "The MTU value was set incorrectly in some cases; this has been corrected.",
-    "release_notes_tr":  "MTU değeri bazı durumlarda yanlış ayarlanıyordu, düzeltildi.",
-    "release_notes":  "The MTU value was set incorrectly in some cases; this has been corrected. | MTU değeri bazı durumlarda yanlış ayarlanıyordu, düzeltildi.",
-    "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "cd2433bfbe118fc355e676eedcfef6ce07b74f6f5e86bda9301f4634e3c55698"
+    "version": "1.0.11",
+    "release_notes_en": "Gaming Process Scheduling presets updated with 42 (Decimal) default, recommended preset tooltips, modern tooltips, UI flag icons in language selector, and revamped toolbox icon.",
+    "release_notes_tr": "Oyun İşlem Zamanlaması varsayılanı 42 (Decimal) yapıldı, önerilen ayar ipuçları, modern tooltip tasarımı, dil seçiminde bayrak ikonları ve yenilenen araç kutusu ikonu eklendi.",
+    "release_notes": "Gaming Process Scheduling presets updated with 42 (Decimal) default, recommended preset tooltips, modern tooltips, UI flag icons in language selector, and revamped toolbox icon. | Oyun İşlem Zamanlaması varsayılanı 42 (Decimal) yapıldı, önerilen ayar ipuçları, modern tooltip tasarımı, dil seçiminde bayrak ikonları ve yenilenen araç kutusu ikonu eklendi.",
+    "download_url": "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
+    "sha256": "981ce4084160fa21925b8149f08ff55cbc7fee98d9c901ae6a1eab0fe9526e52"
 }
