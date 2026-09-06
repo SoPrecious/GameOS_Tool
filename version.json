@@ -1,8 +1,8 @@
 {
-    "version": "1.0.11",
-    "release_notes_en": "Gaming Process Scheduling presets updated with 42 (Decimal) default, recommended preset tooltips, modern tooltips, UI flag icons in language selector, and revamped toolbox icon.",
-    "release_notes_tr": "Oyun İşlem Zamanlaması varsayılanı 42 (Decimal) yapıldı, önerilen ayar ipuçları, modern tooltip tasarımı, dil seçiminde bayrak ikonları ve yenilenen araç kutusu ikonu eklendi.",
-    "release_notes": "Gaming Process Scheduling presets updated with 42 (Decimal) default, recommended preset tooltips, modern tooltips, UI flag icons in language selector, and revamped toolbox icon. | Oyun İşlem Zamanlaması varsayılanı 42 (Decimal) yapıldı, önerilen ayar ipuçları, modern tooltip tasarımı, dil seçiminde bayrak ikonları ve yenilenen araç kutusu ikonu eklendi.",
+    "version": "1.0.12",
+    "release_notes_en": "Removed unnecessary missing file popup when launching games with Gamebar disabled, updated system cleanup and services.",
+    "release_notes_tr": "Gamebar kapalıyken oyun açıldığında arkaplanda çıkan gereksiz dosya eksik uyarısı kaldırıldı, bazı servisler ve ayarlar güncellendi.",
+    "release_notes": "Removed unnecessary missing file popup when launching games with Gamebar disabled, updated system cleanup and services. | Gamebar kapalıyken oyun açıldığında arkaplanda çıkan gereksiz dosya eksik uyarısı kaldırıldı, bazı servisler ve ayarlar güncellendi.",
     "download_url": "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256": "981ce4084160fa21925b8149f08ff55cbc7fee98d9c901ae6a1eab0fe9526e52"
+    "sha256": "A34F8F618D9C634EFB9AC4825E74EA9751DF7835184E47D81A4370E0397EEDAE"
 }

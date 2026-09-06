@@ -4,6 +4,10 @@ All notable changes to GameOS Tool are documented in this file.
 
 ---
 
+## [1.0.12] - 2026-09-06
+- **EN**: Removed unnecessary missing file popup when launching games with Gamebar disabled, updated system cleanup and services.
+- **TR**: Gamebar kapalıyken oyun açıldığında arkaplanda çıkan gereksiz dosya eksik uyarısı kaldırıldı, bazı servisler ve ayarlar güncellendi.
+
 ## [1.0.11] - 2026-08-19
 - **EN**: Gaming Process Scheduling presets updated with 42 (Decimal) default, recommended preset tooltips, modern tooltips, UI flag icons in language selector, and revamped toolbox icon.
 - **TR**: Oyun İşlem Zamanlaması varsayılanı 42 (Decimal) yapıldı, önerilen ayar ipuçları, modern tooltip tasarımı, dil seçiminde bayrak ikonları ve yenilenen araç kutusu ikonu eklendi.
