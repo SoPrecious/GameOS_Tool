@@ -5,8 +5,8 @@ All notable changes to GameOS Tool are documented in this file.
 ---
 
 ## [1.0.13] - 2026-09-12
-- **EN**: Fixed in-game stutter caused by RAM Cleaner by adopting ISLC zero-stutter architecture (eliminated background working set flushes and added DPI/multi-monitor aware game detection), added "End Task" to taskbar context menu, and resolved NVIDIA App installation dependencies.
-- **TR**: RAM Temizleyicinin oyunlarda takılmaya (stutter) yol açması ISLC standartlarında sıfır-stutter mimarisiyle düzeltildi (arka plan working set boşaltmaları kaldırıldı, çoklu monitör/DPI uyumlu oyun algılama eklendi), görev çubuğu sağ tık menüsüne "Görevi Sonlandır" (End Task) eklendi ve NVIDIA App kurulum bağımlılıkları çözüldü.
+- **EN**: GameOS Tool has been made compatible with GameOS Playbook, Ram Cleaner bug fixes applied.
+- **TR**: GameOS Tool, GameOS Playbook ile uyumlu hale getirildi, Ram Cleaner hata düzeltmeleri yapıldı.
 
 ## [1.0.12] - 2026-09-06
 - **EN**: Removed unnecessary missing file popup when launching games with Gamebar disabled, updated system cleanup and services.
