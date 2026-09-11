@@ -1,8 +1,8 @@
 {
     "version": "1.0.13",
-    "release_notes_en": "Fixed in-game stutter caused by RAM Cleaner with ISLC zero-stutter architecture, added End Task to taskbar, and fixed NVIDIA App dependencies.",
-    "release_notes_tr": "RAM Temizleyicinin oyunlarda takılmaya (stutter) yol açması ISLC standartlarında düzeltildi, görev çubuğuna Görevi Sonlandır eklendi ve NVIDIA App bağımlılıkları çözüldü.",
-    "release_notes": "Fixed in-game stutter caused by RAM Cleaner with ISLC zero-stutter architecture, added End Task to taskbar, and fixed NVIDIA App dependencies. | RAM Temizleyicinin oyunlarda takılmaya (stutter) yol açması ISLC standartlarında düzeltildi, görev çubuğuna Görevi Sonlandır eklendi ve NVIDIA App bağımlılıkları çözüldü.",
+    "release_notes_en": "GameOS Tool has been made compatible with GameOS Playbook, Ram Cleaner bug fixes applied.",
+    "release_notes_tr": "GameOS Tool, GameOS Playbook ile uyumlu hale getirildi, Ram Cleaner hata düzeltmeleri yapıldı.",
+    "release_notes": "GameOS Tool has been made compatible with GameOS Playbook, Ram Cleaner bug fixes applied. | GameOS Tool, GameOS Playbook ile uyumlu hale getirildi, Ram Cleaner hata düzeltmeleri yapıldı.",
     "download_url": "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
     "sha256": "2D32F4AEA5818CD4E785CBCEAD82DF8A867398326999615B25B1C74D0E0ED423"
 }
