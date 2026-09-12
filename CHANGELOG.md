@@ -4,6 +4,10 @@ All notable changes to GameOS Tool are documented in this file.
 
 ---
 
+## [1.0.14] - 2026-09-12
+- **EN**: Fixed FirstRun bug where changing any setting prematurely enabled the "Apply Tweaks & Restart" button before background setup finished.
+- **TR**: FirstRun sırasında herhangi bir ayar değiştirildiğinde arka plan kurulum görevleri bitmeden "Ayarla ve Yeniden Başlat" butonunun erkenden aktifleşmesi sorunu düzeltildi.
+
 ## [1.0.13] - 2026-09-12
 - **EN**: GameOS Tool has been made compatible with GameOS Playbook, Ram Cleaner bug fixes applied.
 - **TR**: GameOS Tool, GameOS Playbook ile uyumlu hale getirildi, Ram Cleaner hata düzeltmeleri yapıldı.
