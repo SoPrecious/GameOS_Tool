@@ -1,8 +1,8 @@
 {
-    "version": "1.0.13",
-    "release_notes_en": "GameOS Tool has been made compatible with GameOS Playbook, Ram Cleaner bug fixes applied.",
-    "release_notes_tr": "GameOS Tool, GameOS Playbook ile uyumlu hale getirildi, Ram Cleaner hata düzeltmeleri yapıldı.",
-    "release_notes": "GameOS Tool has been made compatible with GameOS Playbook, Ram Cleaner bug fixes applied. | GameOS Tool, GameOS Playbook ile uyumlu hale getirildi, Ram Cleaner hata düzeltmeleri yapıldı.",
+    "version": "1.0.14",
+    "release_notes_en": "Fixed FirstRun bug where changing any setting enabled the Apply button before background setup finished.",
+    "release_notes_tr": "FirstRun sırasında herhangi bir ayar değiştirildiğinde arkaplan yapılandırması bitmeden Uygula butonunun aktifleşmesi sorunu düzeltildi.",
+    "release_notes": "Fixed FirstRun bug where changing any setting enabled the Apply button before background setup finished. | FirstRun sırasında herhangi bir ayar değiştirildiğinde arkaplan yapılandırması bitmeden Uygula butonunun aktifleşmesi sorunu düzeltildi.",
     "download_url": "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256": "2D32F4AEA5818CD4E785CBCEAD82DF8A867398326999615B25B1C74D0E0ED423"
+    "sha256": "80894AE81B8845D720F584560E8E3F4E998BDC98FDF4CD6DE8731BB1099E57C9"
 }
