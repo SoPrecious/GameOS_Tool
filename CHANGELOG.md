@@ -3,6 +3,10 @@
 All notable changes to GameOS Tool are documented in this file.
 
 ---
+## [1.0.15] - 2026-09-15
+- **EN**: FirstRun button text optimization, embedded icon extraction fix, and full elimination of residual installation files.
+- **TR**: FirstRun uygula butonu metin optimizasyonu, gomulu ikon cikarma duzeltmesi ve kurulum sonrasi artik dosyalarin tamamen temizlenmesi.
+
 
 ## [1.0.14] - 2026-09-12
 - **EN**: Fixed FirstRun bug where changing any setting prematurely enabled the "Apply Tweaks & Restart" button before background setup finished.
