@@ -1,8 +1,8 @@
 {
-    "version": "1.0.14",
-    "release_notes_en": "Fixed FirstRun bug where changing any setting enabled the Apply button before background setup finished.",
-    "release_notes_tr": "FirstRun sırasında herhangi bir ayar değiştirildiğinde arkaplan yapılandırması bitmeden Uygula butonunun aktifleşmesi sorunu düzeltildi.",
-    "release_notes": "Fixed FirstRun bug where changing any setting enabled the Apply button before background setup finished. | FirstRun sırasında herhangi bir ayar değiştirildiğinde arkaplan yapılandırması bitmeden Uygula butonunun aktifleşmesi sorunu düzeltildi.",
-    "download_url": "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256": "80894AE81B8845D720F584560E8E3F4E998BDC98FDF4CD6DE8731BB1099E57C9"
+    "version":  "1.0.15",
+    "release_notes_en":  "FirstRun button text optimization, embedded icon extraction fix, and full elimination of residual installation files.",
+    "release_notes_tr":  "FirstRun uygula butonu metin optimizasyonu, gomulu ikon cikarma duzeltmesi ve kurulum sonrasi artik dosyalarin tamamen temizlenmesi.",
+    "release_notes":  "FirstRun button text optimization, embedded icon extraction fix, and full elimination of residual installation files. | FirstRun uygula butonu metin optimizasyonu, gomulu ikon cikarma duzeltmesi ve kurulum sonrasi artik dosyalarin tamamen temizlenmesi.",
+    "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
+    "sha256":  "E4368B585E6C09292CC0051D983DA54069A489E2FEBB25365EF99EE1B08B1B4E"
 }
