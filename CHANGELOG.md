@@ -1,3 +1,12 @@
+# ðŸŽ® GameOS Tool - Changelog
+
+All notable changes to GameOS Tool are documented in this file.
+
+---
+## [1.0.16] - 2026-09-27
+- **EN**: Windows Firewall enhancement: Keeps mpssvc service active for full compatibility with software installers (e.g. Elgato Stream Deck) while toggling all 3 firewall profiles (Domain, Private, Public) off.
+- **TR**: Windows GÃ¼venlik DuvarÄ± iyileÅŸtirmesi: Stream Deck gibi yÃ¼kleyicilerle tam uyumluluk iÃ§in mpssvc hizmeti aktif tutulur ve 3 profil (Domain, Ã–zel, Ortak) kapalÄ± olarak yapÄ±landÄ±rÄ±lÄ±r.
+
 # 📜 GameOS Tool - Changelog
 
 All notable changes to GameOS Tool are documented in this file.
