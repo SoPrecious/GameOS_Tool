@@ -1,61 +1,80 @@
-# ðŸŽ® GameOS Tool - Changelog
+# 🎮 GameOS Tool - Changelog
 
 All notable changes to GameOS Tool are documented in this file.
 
 ---
+
 ## [1.0.16] - 2026-09-27
 - **EN**: Windows Firewall enhancement: Keeps mpssvc service active for full compatibility with software installers (e.g. Elgato Stream Deck) while toggling all 3 firewall profiles (Domain, Private, Public) off.
-- **TR**: Windows GÃ¼venlik DuvarÄ± iyileÅŸtirmesi: Stream Deck gibi yÃ¼kleyicilerle tam uyumluluk iÃ§in mpssvc hizmeti aktif tutulur ve 3 profil (Domain, Ã–zel, Ortak) kapalÄ± olarak yapÄ±landÄ±rÄ±lÄ±r.
-
-# 📜 GameOS Tool - Changelog
-
-All notable changes to GameOS Tool are documented in this file.
+- **TR**: Windows Güvenlik Duvarı iyileştirmesi: Stream Deck gibi yükleyicilerle tam uyumluluk için mpssvc hizmeti aktif tutulur ve 3 profil (Domain, Özel, Ortak) kapalı olarak yapılandırılır.
 
 ---
+
 ## [1.0.15] - 2026-09-15
 - **EN**: FirstRun button text optimization, embedded icon extraction fix, and full elimination of residual installation files.
-- **TR**: FirstRun uygula butonu metin optimizasyonu, gomulu ikon cikarma duzeltmesi ve kurulum sonrasi artik dosyalarin tamamen temizlenmesi.
+- **TR**: FirstRun uygula butonu metin optimizasyonu, gömülü ikon çıkarma düzeltmesi ve kurulum sonrası artık dosyaların tamamen temizlenmesi.
 
+---
 
 ## [1.0.14] - 2026-09-12
 - **EN**: Fixed FirstRun bug where changing any setting prematurely enabled the "Apply Tweaks & Restart" button before background setup finished.
 - **TR**: FirstRun sırasında herhangi bir ayar değiştirildiğinde arka plan kurulum görevleri bitmeden "Ayarla ve Yeniden Başlat" butonunun erkenden aktifleşmesi sorunu düzeltildi.
 
+---
+
 ## [1.0.13] - 2026-09-12
 - **EN**: GameOS Tool has been made compatible with GameOS Playbook, Ram Cleaner bug fixes applied.
 - **TR**: GameOS Tool, GameOS Playbook ile uyumlu hale getirildi, Ram Cleaner hata düzeltmeleri yapıldı.
 
+---
+
 ## [1.0.12] - 2026-09-06
 - **EN**: Removed unnecessary missing file popup when launching games with Gamebar disabled, updated system cleanup and services.
-- **TR**: Gamebar kapalıyken oyun açıldığında arkaplanda çıkan gereksiz dosya eksik uyarısı kaldırıldı, bazı servisler ve ayarlar güncellendi.
+- **TR**: Gamebar kapalıyken oyun açıldığında arka planda çıkan gereksiz dosya eksik uyarısı kaldırıldı, bazı servisler ve ayarlar güncellendi.
+
+---
 
 ## [1.0.11] - 2026-08-19
 - **EN**: Gaming Process Scheduling presets updated with 42 (Decimal) default, recommended preset tooltips, modern tooltips, UI flag icons in language selector, and revamped toolbox icon.
 - **TR**: Oyun İşlem Zamanlaması varsayılanı 42 (Decimal) yapıldı, önerilen ayar ipuçları, modern tooltip tasarımı, dil seçiminde bayrak ikonları ve yenilenen araç kutusu ikonu eklendi.
 
+---
+
 ## [1.0.10] - 2026-08-15
 - **EN**: The MTU value was set incorrectly in some cases; this has been corrected.
 - **TR**: MTU değeri bazı durumlarda yanlış ayarlanıyordu, düzeltildi.
+
+---
 
 ## [1.0.9] - 2026-08-13
 - **EN**: Embedded wallpaper directly into binary with automatic cleanup.
 - **TR**: Duvar kağıdı doğrudan ikili dosyaya (.exe) gömüldü ve otomatik temizleme eklendi.
 
+---
+
 ## [1.0.8] - 2026-08-13
 - **EN**: Fixed issue where left-clicking the taskbar clock did not open the clock popup/calendar.
 - **TR**: Görev çubuğundaki saate sol tıklandığında herhangi bir popup çıkmama sorunu düzeltildi.
+
+---
 
 ## [1.0.7] - 2026-08-13
 - **EN**: Always administrator mode activated. (EnableLUA=0)
 - **TR**: Artık her şey yönetici yetkisiyle çalışacak şekilde ayarlandı. (EnableLUA=0)
 
+---
+
 ## [1.0.6] - 2026-08-09
 - **EN**: Gaming Process Scheduling logic changed, now you can enter your own numbers and there are now recommended ones.
 - **TR**: Oyun İşlem Zamanlaması artık elle sayı girilebilir duruma getirildi, önerilen sayılar eklendi. Varsayılan 36 olarak seçildi.
 
+---
+
 ## [1.0.5] - 2026-08-06
 - **EN**: Ram cleaner stutter fix.
-- **TR**: Ram Temizleyici stuttera sebep oluyordu, düzeltildi.
+- **TR**: Ram Temizleyici takılmaya (stutter) sebep oluyordu, düzeltildi.
+
+---
 
 ## [1.0.4] - 2026-08-06
 - **EN**: Fixed issue where changing language was detected as an update and reapplied settings.
