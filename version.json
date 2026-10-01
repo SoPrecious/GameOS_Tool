@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.17",
-    "release_notes_en":  "Taskbar clock/calendar flyout works again. MMCSS Games task corrected (Medium + Priority 6). Laptop/desktop detection: First Run defaults now match the device (laptops keep Bluetooth, power throttling, Balanced plan and USB power saving; sensors and Windows Hello stay available). Restart prompts fixed: Gaming Process Scheduling and Device Cleanup apply instantly, USB Optimizations now correctly asks for a restart, DirectPlay only when Windows requires it. MSI mode is only enabled on devices that support it.",
-    "release_notes_tr":  "Görev çubuğu saat/takvim menüsü tekrar çalışıyor. MMCSS Games görevi düzeltildi (Medium + Priority 6). Dizüstü/masaüstü algılama: İlk Çalıştırma varsayılanları artık cihaza göre (dizüstünde Bluetooth, güç kısıtlaması, Dengeli plan ve USB güç tasarrufu korunur; sensörler ve Windows Hello çalışır). Yeniden başlatma uyarıları düzeltildi: Oyun İşlem Zamanlaması ve Aygıt Temizliği anında uygulanır, USB Optimizasyonları artık doğru şekilde yeniden başlatma ister, DirectPlay yalnızca Windows gerektirdiğinde. MSI modu yalnızca destekleyen aygıtlarda açılır.",
-    "release_notes":  "Clock/calendar flyout fixed; MMCSS corrected; laptop/desktop aware defaults; restart prompts fixed. | Saat/takvim menüsü düzeltildi; MMCSS düzeltildi; dizüstü/masaüstü uyumlu varsayılanlar; yeniden başlatma uyarıları düzeltildi.",
+    "version":  "1.0.18",
+    "release_notes_en":  "New MPO (Multi-Plane Overlay) selector in Fullscreen Optimization: MPO: OFF / MPO: ON (default OFF on new installs; keep it ON if you use G-Sync). Your current MPO state is kept when updating. Requires a restart.",
+    "release_notes_tr":  "Tam Ekran Optimizasyonu bölümüne yeni MPO (Multi-Plane Overlay) seçimi eklendi: MPO: OFF / MPO: ON (yeni kurulumlarda varsayılan KAPALI; G-Sync kullanıyorsanız AÇIK tutun). Güncellemede mevcut MPO durumunuz korunur. Yeniden başlatma gerektirir.",
+    "release_notes":  "New MPO selector (OFF/ON) in Fullscreen Optimization; keep ON for G-Sync. | Tam Ekran Optimizasyonu'na MPO seçimi (KAPALI/AÇIK) eklendi; G-Sync için AÇIK tutun.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "ED51C75C802D0B11E38733999A5F25CD75E21660830AB852EAD295E228A54255"
+    "sha256":  "C13AB77DAE6C04B5D2F9F91CA4B9F1FC19FEF922825F84E96B0C074D53EE47AB"
 }

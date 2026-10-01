@@ -4,6 +4,12 @@ All notable changes to GameOS Tool are documented in this file.
 
 ---
 
+## [1.0.18] - 2026-10-01
+- **EN**: New MPO (Multi-Plane Overlay) selector in Fullscreen Optimization: MPO: OFF / MPO: ON. Default OFF on new installs; keep it ON if you use G-Sync. Existing installs keep their current MPO state when updating. Requires a restart.
+- **TR**: Tam Ekran Optimizasyonu bölümüne yeni MPO (Multi-Plane Overlay) seçimi eklendi: MPO: OFF / MPO: ON. Yeni kurulumlarda varsayılan KAPALI; G-Sync kullanıyorsanız AÇIK tutun. Güncellemede mevcut MPO durumu korunur. Yeniden başlatma gerektirir.
+
+---
+
 ## [1.0.17] - 2026-10-01
 - **EN**: Taskbar clock/calendar flyout works again (DisableNotificationCenter policy is now removed; toasts stay disabled). MMCSS Games task corrected per Microsoft documentation: Scheduling Category Medium + Priority 6; unused GPU/SFIO Priority no longer written. Old values are migrated automatically on update.
 - **TR**: Görev çubuğundaki saate tıklayınca açılan saat/takvim menüsü tekrar çalışıyor (DisableNotificationCenter politikası kaldırıldı; bildirimler kapalı kalmaya devam ediyor). MMCSS Games görevi Microsoft dokümantasyonuna göre düzeltildi: Scheduling Category Medium + Priority 6; kullanılmayan GPU/SFIO Priority artık yazılmıyor. Eski değerler güncellemede otomatik düzeltilir.
