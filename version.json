@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.16",
-    "release_notes_en":  "Windows Firewall enhancement: Keeps mpssvc service active for full compatibility with software installers (e.g. Stream Deck) while toggling all 3 firewall profiles (Domain, Private, Public) off.",
-    "release_notes_tr":  "Windows Güvenlik Duvarı iyileştirmesi: Stream Deck gibi yükleyicilerle tam uyumluluk için mpssvc hizmeti aktif tutulur ve 3 profil (Domain, Özel, Ortak) kapalı olarak yapılandırılır.",
-    "release_notes":  "Windows Firewall enhancement: Keeps mpssvc active for installer compatibility while toggling all 3 firewall profiles off. | Windows Güvenlik Duvarı iyileştirmesi: mpssvc aktif tutularak 3 profil kapalı ayarlanır.",
+    "version":  "1.0.17",
+    "release_notes_en":  "Taskbar clock/calendar flyout works again. MMCSS Games task corrected (Medium + Priority 6). Laptop/desktop detection: First Run defaults now match the device (laptops keep Bluetooth, power throttling, Balanced plan and USB power saving; sensors and Windows Hello stay available). Restart prompts fixed: Gaming Process Scheduling and Device Cleanup apply instantly, USB Optimizations now correctly asks for a restart, DirectPlay only when Windows requires it. MSI mode is only enabled on devices that support it.",
+    "release_notes_tr":  "Görev çubuğu saat/takvim menüsü tekrar çalışıyor. MMCSS Games görevi düzeltildi (Medium + Priority 6). Dizüstü/masaüstü algılama: İlk Çalıştırma varsayılanları artık cihaza göre (dizüstünde Bluetooth, güç kısıtlaması, Dengeli plan ve USB güç tasarrufu korunur; sensörler ve Windows Hello çalışır). Yeniden başlatma uyarıları düzeltildi: Oyun İşlem Zamanlaması ve Aygıt Temizliği anında uygulanır, USB Optimizasyonları artık doğru şekilde yeniden başlatma ister, DirectPlay yalnızca Windows gerektirdiğinde. MSI modu yalnızca destekleyen aygıtlarda açılır.",
+    "release_notes":  "Clock/calendar flyout fixed; MMCSS corrected; laptop/desktop aware defaults; restart prompts fixed. | Saat/takvim menüsü düzeltildi; MMCSS düzeltildi; dizüstü/masaüstü uyumlu varsayılanlar; yeniden başlatma uyarıları düzeltildi.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "FC5A7A9A6C36580040DBE31EAF45EEF01CE4CB92405D8705C381B10E761200F8"
+    "sha256":  "ED51C75C802D0B11E38733999A5F25CD75E21660830AB852EAD295E228A54255"
 }

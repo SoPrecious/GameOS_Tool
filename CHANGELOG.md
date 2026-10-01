@@ -4,6 +4,14 @@ All notable changes to GameOS Tool are documented in this file.
 
 ---
 
+## [1.0.17] - 2026-10-01
+- **EN**: Taskbar clock/calendar flyout works again (DisableNotificationCenter policy is now removed; toasts stay disabled). MMCSS Games task corrected per Microsoft documentation: Scheduling Category Medium + Priority 6; unused GPU/SFIO Priority no longer written. Old values are migrated automatically on update.
+- **TR**: Görev çubuğundaki saate tıklayınca açılan saat/takvim menüsü tekrar çalışıyor (DisableNotificationCenter politikası kaldırıldı; bildirimler kapalı kalmaya devam ediyor). MMCSS Games görevi Microsoft dokümantasyonuna göre düzeltildi: Scheduling Category Medium + Priority 6; kullanılmayan GPU/SFIO Priority artık yazılmıyor. Eski değerler güncellemede otomatik düzeltilir.
+- **EN**: Laptop/desktop detection (SMBIOS chassis + battery). First Run defaults follow the device: laptops keep Bluetooth ON, Power Throttling, Balanced power plan and USB power saving; sensor services and Windows Hello are kept; dynamic tick is not disabled. Restart detection fixed: Gaming Process Scheduling and Device Cleanup no longer ask for a restart, USB Optimizations now does, DirectPlay only when DISM reports a pending reboot. Printing and SysMain start immediately when enabled. MSI mode only on devices whose driver supports it. Fixed a GameDVR_FSEBehavior registry path typo.
+- **TR**: Dizüstü/masaüstü algılama (SMBIOS kasa tipi + pil). İlk Çalıştırma varsayılanları cihaza göre: dizüstünde Bluetooth AÇIK, Güç Kısıtlaması, Dengeli güç planı ve USB güç tasarrufu korunur; sensör servisleri ve Windows Hello çalışır; dynamic tick kapatılmaz. Yeniden başlatma algılaması düzeltildi: Oyun İşlem Zamanlaması ve Aygıt Temizliği artık yeniden başlatma istemiyor, USB Optimizasyonları artık istiyor, DirectPlay yalnızca DISM gerektirdiğinde. Yazdırma ve SysMain açıldığında hemen başlatılıyor. MSI modu yalnızca sürücüsü destekleyen aygıtlarda. GameDVR_FSEBehavior kayıt yolu yazım hatası düzeltildi.
+
+---
+
 ## [1.0.16] - 2026-09-27
 - **EN**: Windows Firewall enhancement: Keeps mpssvc service active for full compatibility with software installers (e.g. Elgato Stream Deck) while toggling all 3 firewall profiles (Domain, Private, Public) off.
 - **TR**: Windows Güvenlik Duvarı iyileştirmesi: Stream Deck gibi yükleyicilerle tam uyumluluk için mpssvc hizmeti aktif tutulur ve 3 profil (Domain, Özel, Ortak) kapalı olarak yapılandırılır.
