@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.19",
-    "release_notes_en":  "Toggle state detection fixed and verified: scheduled-task toggles no longer show OFF when the task exists, Hide Default Power Plans now checks all 4 default plans via powercfg, Service Optimizations respects services customized with Adjust, Anti-Cheat also checks that the hypervisor launches, Search Indexing is no longer turned off by Service Optimizations. After Apply, every changed setting is re-checked against the real system and anything that did not stick is reported.",
-    "release_notes_tr":  "Toggle durum algılaması düzeltildi ve doğrulandı: zamanlanmış görev toggle'ları görev mevcutken artık KAPALI görünmüyor, Varsayılan Güç Planlarını Gizle artık 4 varsayılan planı powercfg ile kontrol ediyor, Servis Optimizasyonları 'Ayarla' ile özelleştirilen servisleri dikkate alıyor, Anti-Cheat hipervizörün başlatılıp başlatılmadığını da kontrol ediyor, Arama Dizinleme artık Servis Optimizasyonları tarafından kapatılmıyor. Uygula sonrası değişen her ayar gerçek sistemle tekrar kontrol ediliyor ve uygulanamayanlar bildiriliyor.",
-    "release_notes":  "Toggle state detection fixed; settings are verified against the real system after Apply. | Toggle durum algılaması düzeltildi; ayarlar Uygula sonrası gerçek sistemle doğrulanıyor.",
+    "version":  "1.0.20",
+    "release_notes_en":  "New Periodic SSD TRIM toggle (default ON): keeps the weekly Windows Optimize Drives task enabled so SSDs keep their write speed (re-sends TRIM for free space, no extra writes). Older GameOS builds disabled this task; this update turns it back on once, after that your choice is kept.",
+    "release_notes_tr":  "Yeni Periyodik SSD TRIM ayarı (varsayılan AÇIK): haftalık Windows Sürücüleri İyileştir görevini açık tutarak SSD'lerin yazma hızını korur (boş alan için TRIM'i yeniden gönderir, ek yazma yapmaz). Eski GameOS sürümleri bu görevi kapatıyordu; bu güncelleme bir kez tekrar açar, sonrasında sizin tercihiniz korunur.",
+    "release_notes":  "New Periodic SSD TRIM toggle (default ON); re-enabled once on update. | Yeni Periyodik SSD TRIM ayarı (varsayılan AÇIK); güncellemede bir kez tekrar açılır.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "73F39F146E692E3187C8AE0F3F4496340AC8537A1ED75B2FA1ADE3B53DF7406F"
+    "sha256":  "B7DF8519EC2EB44876D4021AC60478CDACEFD6406C3FD302C271C058F2D8AEEC"
 }

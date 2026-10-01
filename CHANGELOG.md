@@ -4,6 +4,12 @@ All notable changes to GameOS Tool are documented in this file.
 
 ---
 
+## [1.0.20] - 2026-10-01
+- **EN**: New Periodic SSD TRIM toggle (default ON): keeps the weekly Windows Optimize Drives task enabled so SSDs keep their write speed (re-sends TRIM for free space, no extra writes; HDDs still get defragmented). Older GameOS builds disabled this task; updating turns it back on once, after that your choice is kept.
+- **TR**: Yeni Periyodik SSD TRIM ayarı (varsayılan AÇIK): haftalık Windows Sürücüleri İyileştir görevini açık tutarak SSD'lerin yazma hızını korur (boş alan için TRIM'i yeniden gönderir, ek yazma yapmaz; HDD'ler yine birleştirilir). Eski GameOS sürümleri bu görevi kapatıyordu; güncelleme bir kez tekrar açar, sonrasında sizin tercihiniz korunur.
+
+---
+
 ## [1.0.19] - 2026-10-01
 - **EN**: Toggle state detection fixed and verified against a live system: scheduled-task toggles (Network, USB, System Cleanup, Device Cleanup, RAM Cleaner) no longer show OFF when the task exists; Hide Default Power Plans checks all 4 default plans via powercfg; Service Optimizations respects services customized with Adjust; Anti-Cheat also checks that the hypervisor is set to launch; Search Indexing is no longer silently turned off by Service Optimizations. After Apply, every changed setting is re-checked against the real system and anything that did not stick is reported.
 - **TR**: Toggle durum algılaması düzeltildi ve gerçek bir sistemde doğrulandı: zamanlanmış görev toggle'ları (Ağ, USB, Sistem Temizliği, Aygıt Temizliği, RAM Temizleyici) görev mevcutken artık KAPALI görünmüyor; Varsayılan Güç Planlarını Gizle 4 varsayılan planı powercfg ile kontrol ediyor; Servis Optimizasyonları 'Ayarla' ile özelleştirilen servisleri dikkate alıyor; Anti-Cheat hipervizörün açılışta başlatılıp başlatılmadığını da kontrol ediyor; Arama Dizinleme artık Servis Optimizasyonları tarafından sessizce kapatılmıyor. Uygula sonrası değişen her ayar gerçek sistemle tekrar kontrol ediliyor ve uygulanamayanlar bildiriliyor.
