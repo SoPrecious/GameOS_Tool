@@ -4,6 +4,12 @@ All notable changes to GameOS Tool are documented in this file.
 
 ---
 
+## [1.0.19] - 2026-10-01
+- **EN**: Toggle state detection fixed and verified against a live system: scheduled-task toggles (Network, USB, System Cleanup, Device Cleanup, RAM Cleaner) no longer show OFF when the task exists; Hide Default Power Plans checks all 4 default plans via powercfg; Service Optimizations respects services customized with Adjust; Anti-Cheat also checks that the hypervisor is set to launch; Search Indexing is no longer silently turned off by Service Optimizations. After Apply, every changed setting is re-checked against the real system and anything that did not stick is reported.
+- **TR**: Toggle durum algılaması düzeltildi ve gerçek bir sistemde doğrulandı: zamanlanmış görev toggle'ları (Ağ, USB, Sistem Temizliği, Aygıt Temizliği, RAM Temizleyici) görev mevcutken artık KAPALI görünmüyor; Varsayılan Güç Planlarını Gizle 4 varsayılan planı powercfg ile kontrol ediyor; Servis Optimizasyonları 'Ayarla' ile özelleştirilen servisleri dikkate alıyor; Anti-Cheat hipervizörün açılışta başlatılıp başlatılmadığını da kontrol ediyor; Arama Dizinleme artık Servis Optimizasyonları tarafından sessizce kapatılmıyor. Uygula sonrası değişen her ayar gerçek sistemle tekrar kontrol ediliyor ve uygulanamayanlar bildiriliyor.
+
+---
+
 ## [1.0.18] - 2026-10-01
 - **EN**: New MPO (Multi-Plane Overlay) selector in Fullscreen Optimization: MPO: OFF / MPO: ON. Default OFF on new installs; keep it ON if you use G-Sync. Existing installs keep their current MPO state when updating. Requires a restart.
 - **TR**: Tam Ekran Optimizasyonu bölümüne yeni MPO (Multi-Plane Overlay) seçimi eklendi: MPO: OFF / MPO: ON. Yeni kurulumlarda varsayılan KAPALI; G-Sync kullanıyorsanız AÇIK tutun. Güncellemede mevcut MPO durumu korunur. Yeniden başlatma gerektirir.

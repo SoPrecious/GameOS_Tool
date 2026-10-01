@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.18",
-    "release_notes_en":  "New MPO (Multi-Plane Overlay) selector in Fullscreen Optimization: MPO: OFF / MPO: ON (default OFF on new installs; keep it ON if you use G-Sync). Your current MPO state is kept when updating. Requires a restart.",
-    "release_notes_tr":  "Tam Ekran Optimizasyonu bölümüne yeni MPO (Multi-Plane Overlay) seçimi eklendi: MPO: OFF / MPO: ON (yeni kurulumlarda varsayılan KAPALI; G-Sync kullanıyorsanız AÇIK tutun). Güncellemede mevcut MPO durumunuz korunur. Yeniden başlatma gerektirir.",
-    "release_notes":  "New MPO selector (OFF/ON) in Fullscreen Optimization; keep ON for G-Sync. | Tam Ekran Optimizasyonu'na MPO seçimi (KAPALI/AÇIK) eklendi; G-Sync için AÇIK tutun.",
+    "version":  "1.0.19",
+    "release_notes_en":  "Toggle state detection fixed and verified: scheduled-task toggles no longer show OFF when the task exists, Hide Default Power Plans now checks all 4 default plans via powercfg, Service Optimizations respects services customized with Adjust, Anti-Cheat also checks that the hypervisor launches, Search Indexing is no longer turned off by Service Optimizations. After Apply, every changed setting is re-checked against the real system and anything that did not stick is reported.",
+    "release_notes_tr":  "Toggle durum algılaması düzeltildi ve doğrulandı: zamanlanmış görev toggle'ları görev mevcutken artık KAPALI görünmüyor, Varsayılan Güç Planlarını Gizle artık 4 varsayılan planı powercfg ile kontrol ediyor, Servis Optimizasyonları 'Ayarla' ile özelleştirilen servisleri dikkate alıyor, Anti-Cheat hipervizörün başlatılıp başlatılmadığını da kontrol ediyor, Arama Dizinleme artık Servis Optimizasyonları tarafından kapatılmıyor. Uygula sonrası değişen her ayar gerçek sistemle tekrar kontrol ediliyor ve uygulanamayanlar bildiriliyor.",
+    "release_notes":  "Toggle state detection fixed; settings are verified against the real system after Apply. | Toggle durum algılaması düzeltildi; ayarlar Uygula sonrası gerçek sistemle doğrulanıyor.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "C13AB77DAE6C04B5D2F9F91CA4B9F1FC19FEF922825F84E96B0C074D53EE47AB"
+    "sha256":  "73F39F146E692E3187C8AE0F3F4496340AC8537A1ED75B2FA1ADE3B53DF7406F"
 }
