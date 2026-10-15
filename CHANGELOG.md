@@ -4,6 +4,12 @@ All notable changes to GameOS Tool are documented in this file.
 
 ---
 
+## [1.0.21] - 2026-10-15
+- **EN**: RAM Cleaner fix: its standby-list purge was sending the wrong Windows memory command, which emptied every running program's working set instead of clearing the standby cache. It only triggers when free RAM is very low, but when it did, programs and games could stutter while their memory was paged back in. It now clears only the standby cache, as intended.
+- **TR**: RAM Temizleyici düzeltmesi: bekleme listesi temizliği yanlış Windows bellek komutunu gönderiyordu; bekleme önbelleğini temizlemek yerine çalışan tüm programların çalışma belleğini boşaltıyordu. Yalnızca boş RAM çok azaldığında devreye giriyordu, ama girdiğinde programlar ve oyunlar bellekleri geri yüklenirken takılabiliyordu. Artık amaçlandığı gibi yalnızca bekleme önbelleğini temizliyor.
+
+---
+
 ## [1.0.20] - 2026-10-01
 - **EN**: New Periodic SSD TRIM toggle (default ON): keeps the weekly Windows Optimize Drives task enabled so SSDs keep their write speed (re-sends TRIM for free space, no extra writes; HDDs still get defragmented). Older GameOS builds disabled this task; updating turns it back on once, after that your choice is kept.
 - **TR**: Yeni Periyodik SSD TRIM ayarı (varsayılan AÇIK): haftalık Windows Sürücüleri İyileştir görevini açık tutarak SSD'lerin yazma hızını korur (boş alan için TRIM'i yeniden gönderir, ek yazma yapmaz; HDD'ler yine birleştirilir). Eski GameOS sürümleri bu görevi kapatıyordu; güncelleme bir kez tekrar açar, sonrasında sizin tercihiniz korunur.

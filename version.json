@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.20",
-    "release_notes_en":  "New Periodic SSD TRIM toggle (default ON): keeps the weekly Windows Optimize Drives task enabled so SSDs keep their write speed (re-sends TRIM for free space, no extra writes). Older GameOS builds disabled this task; this update turns it back on once, after that your choice is kept.",
-    "release_notes_tr":  "Yeni Periyodik SSD TRIM ayarı (varsayılan AÇIK): haftalık Windows Sürücüleri İyileştir görevini açık tutarak SSD'lerin yazma hızını korur (boş alan için TRIM'i yeniden gönderir, ek yazma yapmaz). Eski GameOS sürümleri bu görevi kapatıyordu; bu güncelleme bir kez tekrar açar, sonrasında sizin tercihiniz korunur.",
-    "release_notes":  "New Periodic SSD TRIM toggle (default ON); re-enabled once on update. | Yeni Periyodik SSD TRIM ayarı (varsayılan AÇIK); güncellemede bir kez tekrar açılır.",
+    "version":  "1.0.21",
+    "release_notes_en":  "RAM Cleaner fix: its standby-list purge was sending the wrong Windows memory command, which emptied every running program's working set instead of clearing the standby cache. It only triggers when free RAM is very low, but when it did, programs and games could stutter while their memory was paged back in. It now clears only the standby cache, as intended.",
+    "release_notes_tr":  "RAM Temizleyici düzeltmesi: bekleme listesi temizliği yanlış Windows bellek komutunu gönderiyordu; bekleme önbelleğini temizlemek yerine çalışan tüm programların çalışma belleğini boşaltıyordu. Yalnızca boş RAM çok azaldığında devreye giriyordu, ama girdiğinde programlar ve oyunlar bellekleri geri yüklenirken takılabiliyordu. Artık amaçlandığı gibi yalnızca bekleme önbelleğini temizliyor.",
+    "release_notes":  "RAM Cleaner now clears only the standby cache (it wrongly emptied every program's working set). | RAM Temizleyici artık yalnızca bekleme önbelleğini temizliyor (yanlışlıkla tüm programların çalışma belleğini boşaltıyordu).",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "B7DF8519EC2EB44876D4021AC60478CDACEFD6406C3FD302C271C058F2D8AEEC"
+    "sha256":  "1DACAFAA3B99E05E193CDBA62344AB66469DE78CF66BDA7AEEF56B19BCF46F33"
 }
