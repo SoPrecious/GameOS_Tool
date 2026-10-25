@@ -4,6 +4,12 @@ All notable changes to GameOS Tool are documented in this file.
 
 ---
 
+## [1.0.29] - 2026-10-25
+- **EN**: GPU Memory Clock Lock removed: pinning the NVIDIA VRAM clock at its maximum lowered FPS in games. The update deletes its task and gives the memory clock back to the driver (no restart needed).
+- **TR**: GPU Bellek Saati Kilidi kaldırıldı: NVIDIA VRAM saatini en yüksekte sabitlemek oyunlarda FPS'i düşürüyordu. Güncelleme görevini siler ve bellek saatini tekrar sürücüye bırakır (yeniden başlatma gerekmez).
+
+---
+
 ## [1.0.28] - 2026-10-25
 - **EN**: Fixes lower FPS on the GameOS power plan. Measured on a Ryzen 7 9850X3D with a game-like frame test: the plan's tuned processor settings kept the CPU about 7% below its boost clock on bursty game loads and made the slowest frames up to 30% slower than stock Windows. The GameOS plan now uses the Windows Balanced processor behaviour (full boost, minimum processor state 5% on every CPU), and keeps its other gaming settings (USB selective suspend, PCIe link power saving, disk and display sleep turned off). Applied automatically after the update when the GameOS plan is on.
 - **TR**: GameOS güç planındaki FPS düşüşü düzeltildi. Ryzen 7 9850X3D'de oyun benzeri kare testiyle ölçüldü: planın ayarlı işlemci değerleri, aralıklı oyun yüklerinde işlemciyi boost hızının yaklaşık %7 altında tutuyor ve en yavaş kareleri stok Windows'a göre %30'a kadar yavaşlatıyordu. GameOS planı artık Windows Balanced işlemci davranışını kullanıyor (tam boost, her işlemcide minimum işlemci durumu %5) ve diğer oyun ayarlarını koruyor (USB seçici askıya alma, PCIe bağlantı güç tasarrufu, disk ve ekran uykusu kapalı). GameOS planı açıksa güncellemeden sonra otomatik uygulanır.
