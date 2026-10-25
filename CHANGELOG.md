@@ -4,6 +4,12 @@ All notable changes to GameOS Tool are documented in this file.
 
 ---
 
+## [1.0.27] - 2026-10-25
+- **EN**: The tool window is a little larger and now shows a permanent hardware summary under the tabs: CPU (cores/threads), GPU (driver version, or 'Driver Missing' in red when no graphics driver is installed), RAM (size, type, speed, modules) and motherboard (model, BIOS version). Detection runs in the background, so the tool opens as fast as before.
+- **TR**: Araç penceresi biraz büyüdü ve sekmelerin altında kalıcı bir donanım özeti gösteriyor: İşlemci (çekirdek/iş parçacığı), ekran kartı (sürücü sürümü; ekran kartı sürücüsü yüklü değilse kırmızı 'Sürücü Yok'), RAM (boyut, tür, hız, modüller) ve anakart (model, BIOS sürümü). Algılama arka planda çalışır, araç eskisi kadar hızlı açılır.
+
+---
+
 ## [1.0.26] - 2026-10-25
 - **EN**: GameOS now detects whether the PC has an Intel or AMD processor (like the laptop/desktop check; shown next to the device type). In the GameOS power plan the minimum processor state is 100% on AMD and stays 5% on Intel. Applied automatically after the update when the GameOS power plan is on.
 - **TR**: GameOS artık işlemcinin Intel mi AMD mi olduğunu algılıyor (dizüstü/masaüstü kontrolü gibi; cihaz türünün yanında gösterilir). GameOS güç planında minimum işlemci durumu AMD'de %100, Intel'de %5 olarak kalır. GameOS güç planı açıksa güncellemeden sonra otomatik uygulanır.
