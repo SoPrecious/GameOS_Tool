@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.27",
-    "release_notes_en":  "The tool window is a little larger and now shows a permanent hardware summary under the tabs: CPU (cores/threads), GPU (driver version, or 'Driver Missing' in red when no graphics driver is installed), RAM (size, type, speed, modules) and motherboard (model, BIOS version). Detection runs in the background, so the tool opens as fast as before.",
-    "release_notes_tr":  "Araç penceresi biraz büyüdü ve sekmelerin altında kalıcı bir donanım özeti gösteriyor: İşlemci (çekirdek/iş parçacığı), ekran kartı (sürücü sürümü; ekran kartı sürücüsü yüklü değilse kırmızı 'Sürücü Yok'), RAM (boyut, tür, hız, modüller) ve anakart (model, BIOS sürümü). Algılama arka planda çalışır, araç eskisi kadar hızlı açılır.",
-    "release_notes":  "Hardware summary (CPU, GPU, RAM, motherboard) under the tabs. | Sekmelerin altında donanım özeti (İşlemci, Ekran Kartı, RAM, Anakart).",
+    "version":  "1.0.28",
+    "release_notes_en":  "Fixes lower FPS on the GameOS power plan. Measured on a Ryzen 7 9850X3D with a game-like frame test: the plan's tuned processor settings kept the CPU about 7% below its boost clock on bursty game loads and made the slowest frames up to 30% slower than stock Windows. The GameOS plan now uses the Windows Balanced processor behaviour (full boost, minimum processor state 5% on every CPU), and keeps its other gaming settings (USB selective suspend, PCIe link power saving, disk and display sleep turned off). Applied automatically after the update when the GameOS plan is on.",
+    "release_notes_tr":  "GameOS güç planındaki FPS düşüşü düzeltildi. Ryzen 7 9850X3D'de oyun benzeri kare testiyle ölçüldü: planın ayarlı işlemci değerleri, aralıklı oyun yüklerinde işlemciyi boost hızının yaklaşık %7 altında tutuyor ve en yavaş kareleri stok Windows'a göre %30'a kadar yavaşlatıyordu. GameOS planı artık Windows Balanced işlemci davranışını kullanıyor (tam boost, her işlemcide minimum işlemci durumu %5) ve diğer oyun ayarlarını koruyor (USB seçici askıya alma, PCIe bağlantı güç tasarrufu, disk ve ekran uykusu kapalı). GameOS planı açıksa güncellemeden sonra otomatik uygulanır.",
+    "release_notes":  "GameOS power plan FPS fix: Windows Balanced processor behaviour, full boost. | GameOS güç planı FPS düzeltmesi: Windows Balanced işlemci davranışı, tam boost.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "20D60444B27BEB6D827234A530A5218D7FA2459E192F4A0078EC4D38C265D70B"
+    "sha256":  "EDD56A5892A09A7D367065F6E7F32D70517C56102C2FFF2EE910BBDFDAB36469"
 }

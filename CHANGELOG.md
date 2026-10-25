@@ -4,6 +4,12 @@ All notable changes to GameOS Tool are documented in this file.
 
 ---
 
+## [1.0.28] - 2026-10-25
+- **EN**: Fixes lower FPS on the GameOS power plan. Measured on a Ryzen 7 9850X3D with a game-like frame test: the plan's tuned processor settings kept the CPU about 7% below its boost clock on bursty game loads and made the slowest frames up to 30% slower than stock Windows. The GameOS plan now uses the Windows Balanced processor behaviour (full boost, minimum processor state 5% on every CPU), and keeps its other gaming settings (USB selective suspend, PCIe link power saving, disk and display sleep turned off). Applied automatically after the update when the GameOS plan is on.
+- **TR**: GameOS güç planındaki FPS düşüşü düzeltildi. Ryzen 7 9850X3D'de oyun benzeri kare testiyle ölçüldü: planın ayarlı işlemci değerleri, aralıklı oyun yüklerinde işlemciyi boost hızının yaklaşık %7 altında tutuyor ve en yavaş kareleri stok Windows'a göre %30'a kadar yavaşlatıyordu. GameOS planı artık Windows Balanced işlemci davranışını kullanıyor (tam boost, her işlemcide minimum işlemci durumu %5) ve diğer oyun ayarlarını koruyor (USB seçici askıya alma, PCIe bağlantı güç tasarrufu, disk ve ekran uykusu kapalı). GameOS planı açıksa güncellemeden sonra otomatik uygulanır.
+
+---
+
 ## [1.0.27] - 2026-10-25
 - **EN**: The tool window is a little larger and now shows a permanent hardware summary under the tabs: CPU (cores/threads), GPU (driver version, or 'Driver Missing' in red when no graphics driver is installed), RAM (size, type, speed, modules) and motherboard (model, BIOS version). Detection runs in the background, so the tool opens as fast as before.
 - **TR**: Araç penceresi biraz büyüdü ve sekmelerin altında kalıcı bir donanım özeti gösteriyor: İşlemci (çekirdek/iş parçacığı), ekran kartı (sürücü sürümü; ekran kartı sürücüsü yüklü değilse kırmızı 'Sürücü Yok'), RAM (boyut, tür, hız, modüller) ve anakart (model, BIOS sürümü). Algılama arka planda çalışır, araç eskisi kadar hızlı açılır.
