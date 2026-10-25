@@ -4,6 +4,12 @@ All notable changes to GameOS Tool are documented in this file.
 
 ---
 
+## [1.0.26] - 2026-10-25
+- **EN**: GameOS now detects whether the PC has an Intel or AMD processor (like the laptop/desktop check; shown next to the device type). In the GameOS power plan the minimum processor state is 100% on AMD and stays 5% on Intel. Applied automatically after the update when the GameOS power plan is on.
+- **TR**: GameOS artık işlemcinin Intel mi AMD mi olduğunu algılıyor (dizüstü/masaüstü kontrolü gibi; cihaz türünün yanında gösterilir). GameOS güç planında minimum işlemci durumu AMD'de %100, Intel'de %5 olarak kalır. GameOS güç planı açıksa güncellemeden sonra otomatik uygulanır.
+
+---
+
 ## [1.0.25] - 2026-10-25
 - **EN**: Restarts with a countdown (for example from installers or Windows Update) are no longer cancelled: the AME Wizard clean-up that ran on every start of the tool (and from the tasks that run when Windows restarts) now only runs during the playbook install, and it no longer closes unrelated programs whose name contains 'ame' (Steam overlay, Windows apps such as Settings, Game Bar, frame-time tools). Game Mode is never turned off. Undocumented power-manager values copied from another playbook were removed and are deleted once on update (takes effect after a restart).
 - **TR**: Geri sayımlı yeniden başlatmalar (örneğin kurulum programları veya Windows Update) artık iptal edilmiyor: aracın her açılışında (ve yeniden başlatmada çalışan görevlerde) çalışan AME Wizard temizliği artık yalnızca playbook kurulumunda çalışıyor ve adında 'ame' geçen alakasız programları (Steam arayüzü, Ayarlar gibi Windows uygulamaları, Game Bar, kare süresi araçları) kapatmıyor. Oyun Modu hiçbir zaman kapatılmıyor. Başka bir playbook'tan kopyalanmış belgelenmemiş güç yöneticisi değerleri kaldırıldı; güncellemede bir kez silinir (yeniden başlatmadan sonra geçerli olur).

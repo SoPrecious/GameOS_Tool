@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.25",
-    "release_notes_en":  "Restarts with a countdown (for example from installers or Windows Update) are no longer cancelled: the AME Wizard clean-up that ran on every start of the tool (and from the tasks that run when Windows restarts) now only runs during the playbook install, and it no longer closes unrelated programs whose name contains 'ame' (Steam overlay, Windows apps such as Settings, Game Bar, frame-time tools). Game Mode is never turned off. Undocumented power-manager values copied from another playbook were removed and are deleted once on update (takes effect after a restart).",
-    "release_notes_tr":  "Geri sayımlı yeniden başlatmalar (örneğin kurulum programları veya Windows Update) artık iptal edilmiyor: aracın her açılışında (ve yeniden başlatmada çalışan görevlerde) çalışan AME Wizard temizliği artık yalnızca playbook kurulumunda çalışıyor ve adında 'ame' geçen alakasız programları (Steam arayüzü, Ayarlar gibi Windows uygulamaları, Game Bar, kare süresi araçları) kapatmıyor. Oyun Modu hiçbir zaman kapatılmıyor. Başka bir playbook'tan kopyalanmış belgelenmemiş güç yöneticisi değerleri kaldırıldı; güncellemede bir kez silinir (yeniden başlatmadan sonra geçerli olur).",
-    "release_notes":  "Timed restarts no longer cancelled; tool no longer closes unrelated apps; Game Mode untouched; undocumented power values removed. | Zamanlı yeniden başlatmalar artık iptal edilmiyor; araç alakasız programları kapatmıyor; Oyun Modu'na dokunulmuyor; belgelenmemiş güç değerleri kaldırıldı.",
+    "version":  "1.0.26",
+    "release_notes_en":  "GameOS now detects whether the PC has an Intel or AMD processor (like the laptop/desktop check; shown next to the device type). In the GameOS power plan the minimum processor state is 100% on AMD and stays 5% on Intel. Applied automatically after the update when the GameOS power plan is on.",
+    "release_notes_tr":  "GameOS artık işlemcinin Intel mi AMD mi olduğunu algılıyor (dizüstü/masaüstü kontrolü gibi; cihaz türünün yanında gösterilir). GameOS güç planında minimum işlemci durumu AMD'de %100, Intel'de %5 olarak kalır. GameOS güç planı açıksa güncellemeden sonra otomatik uygulanır.",
+    "release_notes":  "CPU vendor detection; GameOS plan minimum processor state AMD 100%, Intel 5%. | İşlemci markası algılama; GameOS planında minimum işlemci durumu AMD %100, Intel %5.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "9293CB8ED573DE3E65C8C05B093E0712744EEA42CEC809B64E60331265A258A9"
+    "sha256":  "484A691F25EEFBA054B9D77EF83F390EAB010A092219F09804BECA9B29D0872A"
 }
