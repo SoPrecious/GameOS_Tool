@@ -4,6 +4,12 @@ All notable changes to GameOS Tool are documented in this file.
 
 ---
 
+## [1.0.24] - 2026-10-25
+- **EN**: The MPO selector was removed and MPO now always stays on (Windows default). Tests on Windows 11 24H2 and later showed that the old MPO OFF setting (OverlayTestMode=5) no longer turns MPO off, and the only switch that still works (DisableOverlays) can break DX12 games. Updating removes the old MPO OFF values once; it takes effect after the next restart.
+- **TR**: MPO seçimi kaldırıldı, MPO artık her zaman açık (Windows varsayılanı). Windows 11 24H2 ve sonrasında yapılan testlerde eski MPO KAPALI ayarının (OverlayTestMode=5) MPO'yu artık kapatmadığı görüldü; hâlâ çalışan tek yöntem (DisableOverlays) ise DX12 oyunlarını bozabiliyor. Güncelleme eski MPO KAPALI değerlerini bir kez siler; bir sonraki yeniden başlatmada geçerli olur.
+
+---
+
 ## [1.0.23] - 2026-10-25
 - **EN**: Fullscreen Optimization fix: the two choices were swapped. Fullscreen Mode now turns Windows Fullscreen Optimizations off so games set to fullscreen run in real exclusive fullscreen; Borderless Mode (default) keeps the Windows default. Your saved choice now does what its name says (re-applied after the update). The playbook no longer writes a mixed set of these values on install.
 - **TR**: Tam Ekran Optimizasyonu düzeltmesi: iki seçenek ters çalışıyordu. Tam Ekran Modu artık Windows Tam Ekran Optimizasyonlarını kapatır, tam ekran ayarlı oyunlar gerçek (exclusive) tam ekranda çalışır; Çerçevesiz Mod (varsayılan) Windows varsayılanını korur. Kayıtlı seçiminiz artık adının söylediğini yapar (güncellemeden sonra yeniden uygulanır). Playbook kurulumda artık bu değerlerin karışık bir setini yazmıyor.

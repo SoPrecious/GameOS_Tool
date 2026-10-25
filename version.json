@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.23",
-    "release_notes_en":  "Fullscreen Optimization fix: the two choices were swapped. Fullscreen Mode now turns Windows Fullscreen Optimizations off so games set to fullscreen run in real exclusive fullscreen; Borderless Mode (default) keeps the Windows default. Your saved choice now does what its name says (re-applied after the update). The playbook no longer writes a mixed set of these values on install.",
-    "release_notes_tr":  "Tam Ekran Optimizasyonu düzeltmesi: iki seçenek ters çalışıyordu. Tam Ekran Modu artık Windows Tam Ekran Optimizasyonlarını kapatır, tam ekran ayarlı oyunlar gerçek (exclusive) tam ekranda çalışır; Çerçevesiz Mod (varsayılan) Windows varsayılanını korur. Kayıtlı seçiminiz artık adının söylediğini yapar (güncellemeden sonra yeniden uygulanır). Playbook kurulumda artık bu değerlerin karışık bir setini yazmıyor.",
-    "release_notes":  "Fullscreen Mode / Borderless Mode were swapped - fixed; playbook writes one consistent set. | Tam Ekran / Çerçevesiz Mod ters çalışıyordu, düzeltildi; playbook tek ve tutarlı set yazıyor.",
+    "version":  "1.0.24",
+    "release_notes_en":  "The MPO selector was removed and MPO now always stays on (Windows default). Tests on Windows 11 24H2 and later showed that the old MPO OFF setting (OverlayTestMode=5) no longer turns MPO off, and the only switch that still works (DisableOverlays) can break DX12 games. Updating removes the old MPO OFF values once; it takes effect after the next restart.",
+    "release_notes_tr":  "MPO seçimi kaldırıldı, MPO artık her zaman açık (Windows varsayılanı). Windows 11 24H2 ve sonrasında yapılan testlerde eski MPO KAPALI ayarının (OverlayTestMode=5) MPO'yu artık kapatmadığı görüldü; hâlâ çalışan tek yöntem (DisableOverlays) ise DX12 oyunlarını bozabiliyor. Güncelleme eski MPO KAPALI değerlerini bir kez siler; bir sonraki yeniden başlatmada geçerli olur.",
+    "release_notes":  "MPO selector removed; MPO always stays on. | MPO seçimi kaldırıldı; MPO her zaman açık.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "9D15A80110A1E97EA02A97E77FFA22C8368ADD838E3B1CB695AF60DE40BC2E4D"
+    "sha256":  "CD69190EB2F851B29AF1D8DA8A1C982C6C962EF3CFD3CA4DC899E4F450678759"
 }
