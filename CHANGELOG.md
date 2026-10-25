@@ -4,6 +4,12 @@ All notable changes to GameOS Tool are documented in this file.
 
 ---
 
+## [1.0.30] - 2026-10-25
+- **EN**: Periodic SSD TRIM is now a normal card in the System Tweaks grid (next to Disable Unused SATA Controllers) instead of a full-width card; Mouse and Keyboard Queue Size sit together on the last row again.
+- **TR**: Periyodik SSD TRIM artık Sistem Ayarları ızgarasında normal bir kart (Boş SATA Denetleyicilerini Kapat'ın yanında), tam genişlik değil; Fare ve Klavye Kuyruk Boyutu yine son satırda yan yana.
+
+---
+
 ## [1.0.29] - 2026-10-25
 - **EN**: GPU Memory Clock Lock removed: pinning the NVIDIA VRAM clock at its maximum lowered FPS in games. The update deletes its task and gives the memory clock back to the driver (no restart needed).
 - **TR**: GPU Bellek Saati Kilidi kaldırıldı: NVIDIA VRAM saatini en yüksekte sabitlemek oyunlarda FPS'i düşürüyordu. Güncelleme görevini siler ve bellek saatini tekrar sürücüye bırakır (yeniden başlatma gerekmez).

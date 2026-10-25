@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.29",
-    "release_notes_en":  "GPU Memory Clock Lock removed: pinning the NVIDIA VRAM clock at its maximum lowered FPS in games. The update deletes its task and gives the memory clock back to the driver (no restart needed).",
-    "release_notes_tr":  "GPU Bellek Saati Kilidi kaldırıldı: NVIDIA VRAM saatini en yüksekte sabitlemek oyunlarda FPS'i düşürüyordu. Güncelleme görevini siler ve bellek saatini tekrar sürücüye bırakır (yeniden başlatma gerekmez).",
-    "release_notes":  "GPU Memory Clock Lock removed (lowered FPS). | GPU Bellek Saati Kilidi kaldırıldı (FPS düşürüyordu).",
+    "version":  "1.0.30",
+    "release_notes_en":  "Periodic SSD TRIM is now a normal card in the System Tweaks grid (next to Disable Unused SATA Controllers) instead of a full-width card; Mouse and Keyboard Queue Size sit together on the last row again.",
+    "release_notes_tr":  "Periyodik SSD TRIM artık Sistem Ayarları ızgarasında normal bir kart (Boş SATA Denetleyicilerini Kapat'ın yanında), tam genişlik değil; Fare ve Klavye Kuyruk Boyutu yine son satırda yan yana.",
+    "release_notes":  "Periodic SSD TRIM card moved into the grid. | Periyodik SSD TRIM kartı ızgaraya taşındı.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "4C7FCF0D62824ED8EE6E9116134E9CDD0307D0E5CB180FFDEF7FD8BCF49FB624"
+    "sha256":  "D81178DAF3E70EBC9107C0737EB76E870210B5822008FCA2F3D8FBD5A1173128"
 }
