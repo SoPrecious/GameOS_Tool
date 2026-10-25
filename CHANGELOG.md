@@ -4,6 +4,12 @@ All notable changes to GameOS Tool are documented in this file.
 
 ---
 
+## [1.0.25] - 2026-10-25
+- **EN**: Restarts with a countdown (for example from installers or Windows Update) are no longer cancelled: the AME Wizard clean-up that ran on every start of the tool (and from the tasks that run when Windows restarts) now only runs during the playbook install, and it no longer closes unrelated programs whose name contains 'ame' (Steam overlay, Windows apps such as Settings, Game Bar, frame-time tools). Game Mode is never turned off. Undocumented power-manager values copied from another playbook were removed and are deleted once on update (takes effect after a restart).
+- **TR**: Geri sayımlı yeniden başlatmalar (örneğin kurulum programları veya Windows Update) artık iptal edilmiyor: aracın her açılışında (ve yeniden başlatmada çalışan görevlerde) çalışan AME Wizard temizliği artık yalnızca playbook kurulumunda çalışıyor ve adında 'ame' geçen alakasız programları (Steam arayüzü, Ayarlar gibi Windows uygulamaları, Game Bar, kare süresi araçları) kapatmıyor. Oyun Modu hiçbir zaman kapatılmıyor. Başka bir playbook'tan kopyalanmış belgelenmemiş güç yöneticisi değerleri kaldırıldı; güncellemede bir kez silinir (yeniden başlatmadan sonra geçerli olur).
+
+---
+
 ## [1.0.24] - 2026-10-25
 - **EN**: The MPO selector was removed and MPO now always stays on (Windows default). Tests on Windows 11 24H2 and later showed that the old MPO OFF setting (OverlayTestMode=5) no longer turns MPO off, and the only switch that still works (DisableOverlays) can break DX12 games. Updating removes the old MPO OFF values once; it takes effect after the next restart.
 - **TR**: MPO seçimi kaldırıldı, MPO artık her zaman açık (Windows varsayılanı). Windows 11 24H2 ve sonrasında yapılan testlerde eski MPO KAPALI ayarının (OverlayTestMode=5) MPO'yu artık kapatmadığı görüldü; hâlâ çalışan tek yöntem (DisableOverlays) ise DX12 oyunlarını bozabiliyor. Güncelleme eski MPO KAPALI değerlerini bir kez siler; bir sonraki yeniden başlatmada geçerli olur.
