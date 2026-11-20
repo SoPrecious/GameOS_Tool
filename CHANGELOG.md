@@ -4,6 +4,12 @@ All notable changes to GameOS Tool are documented in this file.
 
 ---
 
+## [1.0.34] - 2026-11-20
+- **EN**: Reverts the experimental Call of Duty changes from 1.0.33: GameOS Tool no longer starts the Secure Boot certificate update, and Anti-Cheat Support ON no longer changes the Defender boot driver. Kept (bug fixes): System Cleanup keeps the Measured Boot (TCG) logs that TPM attestation reads, and turning Defender ON also restores its early-launch boot driver.
+- **TR**: 1.0.33'teki deneysel Call of Duty değişiklikleri geri alındı: GameOS Tool artık Secure Boot sertifika güncellemesini başlatmıyor, Anti-Cheat Desteği AÇIK artık Defender'ın önyükleme sürücüsünü değiştirmiyor. Korunanlar (hata düzeltmeleri): Sistem Temizliği TPM doğrulamasının okuduğu Ölçülü Önyükleme (TCG) loglarını silmiyor, Defender AÇIK yapıldığında erken başlatma önyükleme sürücüsü de geri açılıyor.
+
+---
+
 ## [1.0.33] - 2026-11-20
 - **EN**: Fixes Call of Duty (Modern Warfare 4 / Black Ops 7 / Warzone) showing "BIOS firmware: Update Required" on GameOS. Windows installs the new 2023 Secure Boot certificates and boot manager by itself only on PCs that send diagnostic data, which GameOS turns off, so GameOS installs could stay on the expiring 2011 chain. GameOS Tool now starts Microsoft's documented Secure Boot certificate update (skipped when Secure Boot is off or BitLocker protects the system drive); restart the PC twice afterwards. System Cleanup no longer deletes the Measured Boot (TCG) logs that TPM attestation reads from disk. Anti-Cheat Support ON and Defender ON also turn the Defender early-launch boot driver (ELAM) back on. Applied once on update.
 - **TR**: Call of Duty'nin (Modern Warfare 4 / Black Ops 7 / Warzone) GameOS'ta "BIOS firmware: Update Required" göstermesi düzeltildi. Windows yeni 2023 Secure Boot sertifikalarını ve önyükleme yöneticisini yalnızca tanılama verisi gönderen bilgisayarlara kendisi kuruyor; GameOS bunu kapattığı için kurulumlar süresi dolan 2011 zincirinde kalabiliyordu. GameOS Tool artık Microsoft'un belgelediği Secure Boot sertifika güncellemesini başlatıyor (Secure Boot kapalıysa ya da sistem diski BitLocker ile korunuyorsa atlanır); ardından bilgisayarı iki kez yeniden başlatın. Sistem Temizliği artık TPM doğrulamasının diskten okuduğu Ölçülü Önyükleme (TCG) loglarını silmiyor. Anti-Cheat Desteği AÇIK ve Defender AÇIK, Defender'ın erken başlatma önyükleme sürücüsünü (ELAM) de geri açıyor. Güncellemede bir kez uygulanır.
