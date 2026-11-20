@@ -4,6 +4,12 @@ All notable changes to GameOS Tool are documented in this file.
 
 ---
 
+## [1.0.31] - 2026-11-20
+- **EN**: Images open in qView again on Windows 11 24H2/25H2/26H2: Windows now only reads the new UserChoiceLatest default-app key, which the old writer did not set, so jpg, jpeg, bmp, webp and others kept pointing to the removed Photos app. qView is now the default for every image type it supports (44 formats), also when qView was already installed, and the update re-applies it once. The Defender toggle no longer turns off Security Center (SecurityHealthService, wscsvc), which anti-cheats need. Picking Edge as browser lifts the playbook's Edge install block first. Edge Update is no longer deleted, so the WebView2 runtime can update.
+- **TR**: Resimler Windows 11 24H2/25H2/26H2'de yeniden qView ile açılıyor: Windows artık yalnızca yeni UserChoiceLatest varsayılan uygulama anahtarını okuyor, eski yazıcı bunu yazmıyordu; bu yüzden jpg, jpeg, bmp, webp ve diğerleri kaldırılmış Fotoğraflar uygulamasını gösteriyordu. qView artık desteklediği tüm resim türlerinde (44 biçim) varsayılan, qView zaten kuruluysa da; güncelleme bunu bir kez yeniden uygular. Defender anahtarı artık anti-cheat'lerin ihtiyaç duyduğu Güvenlik Merkezi'ni (SecurityHealthService, wscsvc) kapatmıyor. Tarayıcı olarak Edge seçilirse önce playbook'un Edge kurulum engeli kaldırılır. Edge Update artık silinmiyor, WebView2 güncellenebiliyor.
+
+---
+
 ## [1.0.30] - 2026-10-25
 - **EN**: Periodic SSD TRIM is now a normal card in the System Tweaks grid (next to Disable Unused SATA Controllers) instead of a full-width card; Mouse and Keyboard Queue Size sit together on the last row again.
 - **TR**: Periyodik SSD TRIM artık Sistem Ayarları ızgarasında normal bir kart (Boş SATA Denetleyicilerini Kapat'ın yanında), tam genişlik değil; Fare ve Klavye Kuyruk Boyutu yine son satırda yan yana.

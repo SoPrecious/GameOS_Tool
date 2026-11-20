@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.30",
-    "release_notes_en":  "Periodic SSD TRIM is now a normal card in the System Tweaks grid (next to Disable Unused SATA Controllers) instead of a full-width card; Mouse and Keyboard Queue Size sit together on the last row again.",
-    "release_notes_tr":  "Periyodik SSD TRIM artık Sistem Ayarları ızgarasında normal bir kart (Boş SATA Denetleyicilerini Kapat'ın yanında), tam genişlik değil; Fare ve Klavye Kuyruk Boyutu yine son satırda yan yana.",
-    "release_notes":  "Periodic SSD TRIM card moved into the grid. | Periyodik SSD TRIM kartı ızgaraya taşındı.",
+    "version":  "1.0.31",
+    "release_notes_en":  "Images open in qView again on Windows 11 24H2/25H2/26H2: Windows now only reads the new UserChoiceLatest default-app key, which the old writer did not set, so jpg, jpeg, bmp, webp and others kept pointing to the removed Photos app. qView is now the default for every image type it supports (44 formats), also when qView was already installed, and the update re-applies it once. The Defender toggle no longer turns off Security Center (SecurityHealthService, wscsvc), which anti-cheats need. Picking Edge as browser lifts the playbook\u0027s Edge install block first. Edge Update is no longer deleted, so the WebView2 runtime can update.",
+    "release_notes_tr":  "Resimler Windows 11 24H2/25H2/26H2\u0027de yeniden qView ile açılıyor: Windows artık yalnızca yeni UserChoiceLatest varsayılan uygulama anahtarını okuyor, eski yazıcı bunu yazmıyordu; bu yüzden jpg, jpeg, bmp, webp ve diğerleri kaldırılmış Fotoğraflar uygulamasını gösteriyordu. qView artık desteklediği tüm resim türlerinde (44 biçim) varsayılan, qView zaten kuruluysa da; güncelleme bunu bir kez yeniden uygular. Defender anahtarı artık anti-cheat\u0027lerin ihtiyaç duyduğu Güvenlik Merkezi\u0027ni (SecurityHealthService, wscsvc) kapatmıyor. Tarayıcı olarak Edge seçilirse önce playbook\u0027un Edge kurulum engeli kaldırılır. Edge Update artık silinmiyor, WebView2 güncellenebiliyor.",
+    "release_notes":  "qView default for all image types on 24H2+ (UserChoiceLatest); Defender toggle keeps Security Center on. | qView 24H2+ tüm resim türlerinde varsayılan (UserChoiceLatest); Defender anahtarı Güvenlik Merkezi\u0027ni açık tutuyor.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "D81178DAF3E70EBC9107C0737EB76E870210B5822008FCA2F3D8FBD5A1173128"
+    "sha256":  "9D9D89F265E751EEBF87B754B2209D67CED29E0F51328D79F55DA320D4D75615"
 }
