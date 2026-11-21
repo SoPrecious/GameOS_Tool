@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.34",
-    "release_notes_en":  "Reverts the experimental Call of Duty changes from 1.0.33: GameOS Tool no longer starts the Secure Boot certificate update, and Anti-Cheat Support ON no longer changes the Defender boot driver. Kept (bug fixes): System Cleanup keeps the Measured Boot (TCG) logs that TPM attestation reads, and turning Defender ON also restores its early-launch boot driver.",
-    "release_notes_tr":  "1.0.33\u0027teki deneysel Call of Duty değişiklikleri geri alındı: GameOS Tool artık Secure Boot sertifika güncellemesini başlatmıyor, Anti-Cheat Desteği AÇIK artık Defender\u0027ın önyükleme sürücüsünü değiştirmiyor. Korunanlar (hata düzeltmeleri): Sistem Temizliği TPM doğrulamasının okuduğu Ölçülü Önyükleme (TCG) loglarını silmiyor, Defender AÇIK yapıldığında erken başlatma önyükleme sürücüsü de geri açılıyor.",
-    "release_notes":  "Reverts the experimental 1.0.33 Call of Duty changes; keeps the two bug fixes. | 1.0.33\u0027teki deneysel Call of Duty değişiklikleri geri alındı; iki hata düzeltmesi korundu.",
+    "version":  "1.0.35",
+    "release_notes_en":  "System Cleanup no longer deletes the Windows font cache on every shutdown. Windows had to rebuild it after each boot for no benefit; the font cache stays small and is maintained by Windows itself.",
+    "release_notes_tr":  "Sistem Temizliği artık her kapanışta Windows yazı tipi önbelleğini silmiyor. Windows bu önbelleği her açılıştan sonra hiçbir fayda sağlamadan yeniden oluşturmak zorunda kalıyordu; önbellek küçüktür ve Windows tarafından kendiliğinden yönetilir.",
+    "release_notes":  "System Cleanup keeps the font cache. | Sistem Temizliği yazı tipi önbelleğini artık silmiyor.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "8DAFF8555027EA92FC6FA53123E4463BD598D43A1B682E13E558EC2ABCA680A0"
+    "sha256":  "44E32A53DC12EE9F2B832D986045E2E80C4D955F66C46DFBD85EF234BDA5B87F"
 }

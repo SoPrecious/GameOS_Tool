@@ -4,6 +4,12 @@ All notable changes to GameOS Tool are documented in this file.
 
 ---
 
+## [1.0.35] - 2026-11-21
+- **EN**: System Cleanup no longer deletes the Windows font cache on every shutdown. Windows had to rebuild it after each boot for no benefit; the font cache stays small and is maintained by Windows itself.
+- **TR**: Sistem Temizliği artık her kapanışta Windows yazı tipi önbelleğini silmiyor. Windows bu önbelleği her açılıştan sonra hiçbir fayda sağlamadan yeniden oluşturmak zorunda kalıyordu; önbellek küçüktür ve Windows tarafından kendiliğinden yönetilir.
+
+---
+
 ## [1.0.34] - 2026-11-20
 - **EN**: Reverts the experimental Call of Duty changes from 1.0.33: GameOS Tool no longer starts the Secure Boot certificate update, and Anti-Cheat Support ON no longer changes the Defender boot driver. Kept (bug fixes): System Cleanup keeps the Measured Boot (TCG) logs that TPM attestation reads, and turning Defender ON also restores its early-launch boot driver.
 - **TR**: 1.0.33'teki deneysel Call of Duty değişiklikleri geri alındı: GameOS Tool artık Secure Boot sertifika güncellemesini başlatmıyor, Anti-Cheat Desteği AÇIK artık Defender'ın önyükleme sürücüsünü değiştirmiyor. Korunanlar (hata düzeltmeleri): Sistem Temizliği TPM doğrulamasının okuduğu Ölçülü Önyükleme (TCG) loglarını silmiyor, Defender AÇIK yapıldığında erken başlatma önyükleme sürücüsü de geri açılıyor.
