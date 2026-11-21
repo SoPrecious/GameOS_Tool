@@ -4,6 +4,12 @@ All notable changes to GameOS Tool are documented in this file.
 
 ---
 
+## [1.0.37] - 2026-11-22
+- **EN**: Turkish interface: the restart button now reads "Yeniden Başlat" instead of "Şimdi Yeniden Başlat", which did not fit the button and was cut off (restart prompt after Apply and after removing Windows Hello).
+- **TR**: Türkçe arayüz: yeniden başlatma düğmesi artık "Şimdi Yeniden Başlat" yerine "Yeniden Başlat" yazıyor; eski metin düğmeye sığmıyor ve kesiliyordu (Uygula sonrası ve Windows Hello kaldırıldıktan sonraki yeniden başlatma sorusu).
+
+---
+
 ## [1.0.36] - 2026-11-22
 - **EN**: Windows 11 24H2+ starts VBS and the Windows hypervisor for Windows Hello (PIN, face, fingerprint) even when Anti-Cheat Support is OFF, which can lower FPS and 1% lows. GameOS Tool now detects this on first setup, when Anti-Cheat Support is switched OFF and once on existing installs, and asks: verify your account password (Microsoft or local account) so GameOS can remove Windows Hello and turn VBS off after a restart, or keep VBS on. The password is only checked by Windows and never stored; all changed settings are backed up and restored when Anti-Cheat Support is turned ON. Also fixed: the Windows Biometric Service is Manual again on desktops (it was disabled and blocked Windows Hello management in Settings).
 - **TR**: Windows 11 24H2 ve sonrası, Anti-Cheat Desteği KAPALI olsa bile Windows Hello (PIN, yüz, parmak izi) için VBS'i ve Windows hipervizörünü başlatıyor; bu FPS ve %1 low değerlerini düşürebilir. GameOS Tool bunu artık ilk kurulumda, Anti-Cheat Desteği kapatılırken ve mevcut kurulumlarda bir kez algılayıp soruyor: hesap şifrenizi (Microsoft veya yerel hesap) doğrulayın, GameOS Windows Hello'yu kaldırsın ve yeniden başlatmadan sonra VBS kapansın; ya da VBS açık kalsın. Şifre yalnızca Windows tarafından doğrulanır, hiçbir yere kaydedilmez; değiştirilen tüm ayarlar yedeklenir ve Anti-Cheat Desteği açılınca geri yüklenir. Ayrıca düzeltildi: Windows Biyometrik Hizmeti masaüstünde yeniden El ile (kapalıydı ve Ayarlar'da Windows Hello yönetimini engelliyordu).

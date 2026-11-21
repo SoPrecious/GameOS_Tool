@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.36",
-    "release_notes_en":  "Windows 11 24H2+ starts VBS and the Windows hypervisor for Windows Hello (PIN, face, fingerprint) even when Anti-Cheat Support is OFF, which can lower FPS and 1% lows. GameOS Tool now detects this on first setup, when Anti-Cheat Support is switched OFF and once on existing installs, and asks: verify your account password (Microsoft or local account) so GameOS can remove Windows Hello and turn VBS off after a restart, or keep VBS on. The password is only checked by Windows and never stored; all changed settings are backed up and restored when Anti-Cheat Support is turned ON. Also fixed: the Windows Biometric Service is Manual again on desktops (it was disabled and blocked Windows Hello management in Settings).",
-    "release_notes_tr":  "Windows 11 24H2 ve sonrası, Anti-Cheat Desteği KAPALI olsa bile Windows Hello (PIN, yüz, parmak izi) için VBS\u0027i ve Windows hipervizörünü başlatıyor; bu FPS ve %1 low değerlerini düşürebilir. GameOS Tool bunu artık ilk kurulumda, Anti-Cheat Desteği kapatılırken ve mevcut kurulumlarda bir kez algılayıp soruyor: hesap şifrenizi (Microsoft veya yerel hesap) doğrulayın, GameOS Windows Hello\u0027yu kaldırsın ve yeniden başlatmadan sonra VBS kapansın; ya da VBS açık kalsın. Şifre yalnızca Windows tarafından doğrulanır, hiçbir yere kaydedilmez; değiştirilen tüm ayarlar yedeklenir ve Anti-Cheat Desteği açılınca geri yüklenir. Ayrıca düzeltildi: Windows Biyometrik Hizmeti masaüstünde yeniden El ile (kapalıydı ve Ayarlar\u0027da Windows Hello yönetimini engelliyordu).",
-    "release_notes":  "Windows Hello / VBS detection with password check, biometric service fix. | Windows Hello / VBS algılaması ve şifre doğrulaması, biyometrik hizmet düzeltmesi.",
+    "version":  "1.0.37",
+    "release_notes_en":  "Turkish interface: the restart button now reads \"Yeniden Başlat\" instead of \"Şimdi Yeniden Başlat\", which did not fit the button and was cut off (restart prompt after Apply and after removing Windows Hello).",
+    "release_notes_tr":  "Türkçe arayüz: yeniden başlatma düğmesi artık \"Şimdi Yeniden Başlat\" yerine \"Yeniden Başlat\" yazıyor; eski metin düğmeye sığmıyor ve kesiliyordu (Uygula sonrası ve Windows Hello kaldırıldıktan sonraki yeniden başlatma sorusu).",
+    "release_notes":  "Turkish restart button text fits again. | Türkçe yeniden başlatma düğmesi metni artık sığıyor.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "3415CB5A8DDDE6AE95A9A27DB91E96453105119EDF7F06F21B37215E0BD8548C"
+    "sha256":  "2758FB991701D18A13AF9C1E8F682146359DEF23986DEEA9BD7DB31E7BA904BB"
 }
