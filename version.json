@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.35",
-    "release_notes_en":  "System Cleanup no longer deletes the Windows font cache on every shutdown. Windows had to rebuild it after each boot for no benefit; the font cache stays small and is maintained by Windows itself.",
-    "release_notes_tr":  "Sistem Temizliği artık her kapanışta Windows yazı tipi önbelleğini silmiyor. Windows bu önbelleği her açılıştan sonra hiçbir fayda sağlamadan yeniden oluşturmak zorunda kalıyordu; önbellek küçüktür ve Windows tarafından kendiliğinden yönetilir.",
-    "release_notes":  "System Cleanup keeps the font cache. | Sistem Temizliği yazı tipi önbelleğini artık silmiyor.",
+    "version":  "1.0.36",
+    "release_notes_en":  "Windows 11 24H2+ starts VBS and the Windows hypervisor for Windows Hello (PIN, face, fingerprint) even when Anti-Cheat Support is OFF, which can lower FPS and 1% lows. GameOS Tool now detects this on first setup, when Anti-Cheat Support is switched OFF and once on existing installs, and asks: verify your account password (Microsoft or local account) so GameOS can remove Windows Hello and turn VBS off after a restart, or keep VBS on. The password is only checked by Windows and never stored; all changed settings are backed up and restored when Anti-Cheat Support is turned ON. Also fixed: the Windows Biometric Service is Manual again on desktops (it was disabled and blocked Windows Hello management in Settings).",
+    "release_notes_tr":  "Windows 11 24H2 ve sonrası, Anti-Cheat Desteği KAPALI olsa bile Windows Hello (PIN, yüz, parmak izi) için VBS\u0027i ve Windows hipervizörünü başlatıyor; bu FPS ve %1 low değerlerini düşürebilir. GameOS Tool bunu artık ilk kurulumda, Anti-Cheat Desteği kapatılırken ve mevcut kurulumlarda bir kez algılayıp soruyor: hesap şifrenizi (Microsoft veya yerel hesap) doğrulayın, GameOS Windows Hello\u0027yu kaldırsın ve yeniden başlatmadan sonra VBS kapansın; ya da VBS açık kalsın. Şifre yalnızca Windows tarafından doğrulanır, hiçbir yere kaydedilmez; değiştirilen tüm ayarlar yedeklenir ve Anti-Cheat Desteği açılınca geri yüklenir. Ayrıca düzeltildi: Windows Biyometrik Hizmeti masaüstünde yeniden El ile (kapalıydı ve Ayarlar\u0027da Windows Hello yönetimini engelliyordu).",
+    "release_notes":  "Windows Hello / VBS detection with password check, biometric service fix. | Windows Hello / VBS algılaması ve şifre doğrulaması, biyometrik hizmet düzeltmesi.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "44E32A53DC12EE9F2B832D986045E2E80C4D955F66C46DFBD85EF234BDA5B87F"
+    "sha256":  "3415CB5A8DDDE6AE95A9A27DB91E96453105119EDF7F06F21B37215E0BD8548C"
 }
