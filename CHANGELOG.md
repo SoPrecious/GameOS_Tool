@@ -4,6 +4,12 @@ All notable changes to GameOS Tool are documented in this file.
 
 ---
 
+## [1.0.39] - 2026-11-22
+- **EN**: Anti-Cheat Support now only holds what anti-cheats require: hypervisor, VBS, Memory Integrity (VALORANT VAN:RESTRICTION:5, FACEIT) and Control Flow Guard (VALORANT VAN 9002). The rest moved to the new General Security toggle: Spectre / Meltdown CPU mitigations and kernel stack protection, which no game requires. Both are OFF by default; your current state is kept. After a Tool update every setting is re-applied before the window shows your settings, then checked again; anything that did not stick is listed in the status bar. Fixed: a Tool update paused Windows Update again even if you had turned it on. If Windows Hello keeps VBS running while Anti-Cheat Support is OFF, the Windows Hello prompt is shown after every Tool update, even if you chose to keep VBS before.
+- **TR**: Anti-Cheat Desteği artık yalnızca anti-cheat'lerin istediklerini içeriyor: hipervizör, VBS, Bellek Bütünlüğü (VALORANT VAN:RESTRICTION:5, FACEIT) ve Control Flow Guard (VALORANT VAN 9002). Geri kalanlar yeni Genel Güvenlik ayarına taşındı: hiçbir oyunun istemediği Spectre / Meltdown CPU korumaları ve çekirdek yığın koruması. İkisi de varsayılan olarak KAPALI; mevcut durumunuz korunur. Tool güncellendiğinde tüm ayarlar, pencere ayarlarınızı göstermeden önce yeniden uygulanır ve tekrar kontrol edilir; tutmayan bir ayar varsa durum satırında listelenir. Düzeltme: Tool güncellemesi, açmış olsanız bile Windows Update'i yeniden duraklatıyordu. Anti-Cheat Desteği KAPALI iken Windows Hello VBS'i çalıştırıyorsa, daha önce VBS'i açık bırakmayı seçmiş olsanız bile Windows Hello uyarısı her Tool güncellemesinden sonra gösterilir.
+
+---
+
 ## [1.0.38] - 2026-11-22
 - **EN**: Turkish interface: the first-setup button now reads "Uygula ve Yeniden Başlat" instead of the abbreviated "Uygula & Y. Başlat". Every fixed-width button was measured in English and Turkish; all texts fit.
 - **TR**: Türkçe arayüz: ilk kurulum düğmesi artık kısaltılmış "Uygula & Y. Başlat" yerine "Uygula ve Yeniden Başlat" yazıyor. Sabit genişlikli tüm düğmeler İngilizce ve Türkçe ölçüldü; hepsinin metni sığıyor.
