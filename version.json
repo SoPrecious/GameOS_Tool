@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.37",
-    "release_notes_en":  "Turkish interface: the restart button now reads \"Yeniden Başlat\" instead of \"Şimdi Yeniden Başlat\", which did not fit the button and was cut off (restart prompt after Apply and after removing Windows Hello).",
-    "release_notes_tr":  "Türkçe arayüz: yeniden başlatma düğmesi artık \"Şimdi Yeniden Başlat\" yerine \"Yeniden Başlat\" yazıyor; eski metin düğmeye sığmıyor ve kesiliyordu (Uygula sonrası ve Windows Hello kaldırıldıktan sonraki yeniden başlatma sorusu).",
-    "release_notes":  "Turkish restart button text fits again. | Türkçe yeniden başlatma düğmesi metni artık sığıyor.",
+    "version":  "1.0.38",
+    "release_notes_en":  "Turkish interface: the first-setup button now reads \"Uygula ve Yeniden Başlat\" instead of the abbreviated \"Uygula \u0026 Y. Başlat\". Every fixed-width button was measured in English and Turkish; all texts fit.",
+    "release_notes_tr":  "Türkçe arayüz: ilk kurulum düğmesi artık kısaltılmış \"Uygula \u0026 Y. Başlat\" yerine \"Uygula ve Yeniden Başlat\" yazıyor. Sabit genişlikli tüm düğmeler İngilizce ve Türkçe ölçüldü; hepsinin metni sığıyor.",
+    "release_notes":  "Turkish first-setup button text written out in full. | Türkçe ilk kurulum düğmesi metni kısaltmasız.",
     "download_url":  "https://raw.githubusercontent.com/SoPrecious/GameOS_Tool/main/GameOS_Tool.exe",
-    "sha256":  "2758FB991701D18A13AF9C1E8F682146359DEF23986DEEA9BD7DB31E7BA904BB"
+    "sha256":  "9E6B9F5F38B058CF3F00021D6DC405E7FD22128B34BE88819E5E6322A939FE98"
 }

@@ -4,6 +4,12 @@ All notable changes to GameOS Tool are documented in this file.
 
 ---
 
+## [1.0.38] - 2026-11-22
+- **EN**: Turkish interface: the first-setup button now reads "Uygula ve Yeniden Başlat" instead of the abbreviated "Uygula & Y. Başlat". Every fixed-width button was measured in English and Turkish; all texts fit.
+- **TR**: Türkçe arayüz: ilk kurulum düğmesi artık kısaltılmış "Uygula & Y. Başlat" yerine "Uygula ve Yeniden Başlat" yazıyor. Sabit genişlikli tüm düğmeler İngilizce ve Türkçe ölçüldü; hepsinin metni sığıyor.
+
+---
+
 ## [1.0.37] - 2026-11-22
 - **EN**: Turkish interface: the restart button now reads "Yeniden Başlat" instead of "Şimdi Yeniden Başlat", which did not fit the button and was cut off (restart prompt after Apply and after removing Windows Hello).
 - **TR**: Türkçe arayüz: yeniden başlatma düğmesi artık "Şimdi Yeniden Başlat" yerine "Yeniden Başlat" yazıyor; eski metin düğmeye sığmıyor ve kesiliyordu (Uygula sonrası ve Windows Hello kaldırıldıktan sonraki yeniden başlatma sorusu).
